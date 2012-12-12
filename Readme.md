@@ -19,7 +19,7 @@ To get Shower template run following command:
 git clone --recursive git@github.com:shower/template.git
 ```
 
-Or you can just download [latest version](https://github.com/downloads/shower/template/template.zip) as ZIP file.
+Or you can just download [latest version](http://shwr.me/template.zip) as ZIP file.
 
 ---
 
