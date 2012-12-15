@@ -22,5 +22,4 @@ git clone --recursive git@github.com:shower/template.git
 Or you can just download [latest version](http://shwr.me/template.zip) as ZIP file.
 
 ---
-
 Licensed under [MIT License](http://en.wikipedia.org/wiki/MIT_License), see [license page](shower/wiki/MIT-License) for details.
