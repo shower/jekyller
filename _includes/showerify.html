@@ -9,4 +9,30 @@
     {% capture supertitle %}{{ subsubitems | remove_first:lol }}{% endcapture %}
 {% endfor %}
 
-{% capture showerify_output %}{{ showerify_input }}{% endcapture %}
+{% assign flag = false %}
+{% for item in items %}
+    {% capture h1_attrs %}{{ item | split:'>' | first }}{% endcapture %}
+    {% if flag != false %}
+        {% capture showerify_middle %}<section{{ h1_attrs | replace_first:'class="':'class="slide ' }}><div><h2{% endcapture %}
+        {% assign slides = item | remove_first:h1_attrs | split: '<h2' %}
+
+        {% assign flag = false %}
+        {% for slide in slides %}
+            {% capture slide_attrs %}{{ slide | split:'>' | first }}{% endcapture %}
+            {% if flag == false %}
+                {% capture showerify_middle %}{{ showerify_middle }}{{ slide }}{% endcapture %}
+                {% assign flag = true %}
+            {% else %}
+                {% capture showerify_middle %}{{ showerify_middle }}</div></section><section class="slide"{{ slide_attrs }}><div><h2{% endcapture %}
+                {% capture showerify_middle %}{{ showerify_middle }}{{ slide | replace_first:slide_attrs }}{% endcapture %}
+            {% endif %}
+        {% endfor %}
+        {% capture showerify_middle %}{{ showerify_middle }}</div></section>{% endcapture %}
+    {% else %}
+        {% assign flag = true %}
+
+
+    {% endif %}
+{% endfor %}
+
+{% capture showerify_output %}{{ showerify_middle }}{% endcapture %}
