@@ -2,6 +2,17 @@
 
 layout: default
 
+style: |
+    #Cover h2 {
+        margin:65px 0 0;
+        color:#FFF;
+        text-align:center;
+        font-size:70px;
+        }
+    #Picture h2 {
+        color:#FFF;
+        }
+
 ---
 
 # Shower Presentation _Engine_

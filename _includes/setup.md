@@ -1,3 +1,4 @@
+{% capture strip_whitespace %}
 {% capture theme %}{% if page.theme %}{{ page.theme }}{% else %}{{ site.default_theme }}{% endif %}{% endcapture %}
 
 {% capture author_name %}{% if page.author %}{{ page.author.name }}{% else %}{{ site.author.name }}{% endif %}{% endcapture %}
@@ -12,3 +13,4 @@
 
 {% capture fork_url %}{% if page.fork_url %}{{ page.fork_url }}{% else %}{{ site.fork_url }}{% endif %}{% endcapture %}
 {% capture progress %}{% if page.progress %}{{ page.progress }}{% else %}{{ site.progress }}{% endif %}{% endcapture %}
+{% endcapture %}

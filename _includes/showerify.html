@@ -25,7 +25,8 @@
                 {% capture showerify_middle %}{{ showerify_middle }}{{ slide }}{% endcapture %}
                 {% assign flag = true %}
             {% else %}
-                {% capture showerify_middle %}{{ showerify_middle }}</div></section><section class="slide"{{ slide_attrs }}><div><h2{% endcapture %}
+                {% capture showerify_middle %}{{ showerify_middle }}</div></section>
+<section class="slide"{{ slide_attrs }}><div><h2{% endcapture %}
                 {% capture showerify_middle %}{{ showerify_middle }}{{ slide | replace_first:slide_attrs }}{% endcapture %}
             {% endif %}
         {% endfor %}
@@ -34,5 +35,5 @@
         {% assign flag = true %}
     {% endif %}
 {% endfor %}
-{% endcapture %}
 {% capture showerify_output %}{{ showerify_middle | replace:'class="slide" class="':'class="slide ' | replace:'&lt;/mark&gt;':'</mark>' | replace:'&lt;mark&gt;':'<mark>' | replace:'&lt;mark class="comment"&gt;':'<mark class="comment">' | replace:'&lt;mark class="important"&gt;':'<mark class="important">' }}{% endcapture %}
+{% endcapture %}

@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=792, user-scalable=no">
 	<link rel="stylesheet" href="themes/{{ theme }}/styles/screen.css">
 	<link rel="stylesheet" href="themes/{{ theme }}/styles/print.css" media="print">
+	{% if page.style %}<style>
+{{ page.style }}</style>{%endif%}
 </head>
 <body class="list">
 	<header class="caption">
