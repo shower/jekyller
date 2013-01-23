@@ -1,3 +1,6 @@
 [submodule "shower"]
 	path = shower
 	url = git://github.com/kizu/shower.git
+[submodule "themes/ribbon"]
+    path = themes/ribbon
+    url = git://github.com/shower/ribbon.git
