@@ -1,7 +1,7 @@
-<!DOCTYPE HTML>{% include setup.md %}
+<!DOCTYPE HTML>{% capture showerify_input %}{{ content }}{% endcapture %}{% include showerify.html %}{% include setup.md %}
 <html lang="en">
 <head>
-	<title>{{ title }}</title>
+	<title>{{ title | strip_html }}</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=792, user-scalable=no">
 	<link rel="stylesheet" href="themes/{{ theme }}/styles/screen.css">
@@ -10,10 +10,10 @@
 <body class="list">
 	<header class="caption">
 		<h1>{{ title }}</h1>
-		{% if subtitle %}<p>{{ subtitle }}</p>{% endif %}
+		{% if subtitle %}{{ subtitle }}{% endif %}
 	</header>
 
-	{% capture showerify_input %}{{ content }}{% endcapture %}{% include showerify.html %}
+	{{ showerify_output }}
 
 	{% if fork_url %}<p class="badge"><a href="{{ fork_url }}">Fork me on Github</a></p>{% endif %}
 	{% if progress %}<div class="progress"><div></div></div>{% endif %}

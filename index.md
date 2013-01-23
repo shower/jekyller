@@ -2,12 +2,10 @@
 
 layout: default
 
-title: Shower Presentaion Engine
-
 ---
 
 {: .cover #Cover }
-# Shower Presentation Engine
+# Shower Presentation _Engine_
 
 ![](pictures/cover.jpg)
 

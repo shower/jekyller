@@ -1,2 +1,12 @@
+{% assign items = showerify_input | split:'<h1' %}
+{% for item in items %}
+    {% assign subitems = item | split:'</h1>' %}
+    {% assign subsubitems = subitems[0] %}
 
-{{ showerify_input }}
+    {% capture subsubitems2 %}{{ subsubitems }}{% endcapture %}
+    {% assign subsubitems2 = subsubitems2 | split: '>' %}
+    {% assign lol = subsubitems2[0] | append:">" %}
+    {% capture supertitle %}{{ subsubitems | remove_first:lol }}{% endcapture %}
+{% endfor %}
+
+{% capture showerify_output %}{{ showerify_input }}{% endcapture %}

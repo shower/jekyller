@@ -6,7 +6,7 @@
 {% capture company_name %}{% if page.author.company %}{{ page.author.company.name }}{% else %}{{ site.author.company.name }}{% endif %}{% endcapture %}
 {% capture company_url  %}{% if page.author.company %}{{ page.author.company.url }}{% else %}{{ site.author.company.url }}{% endif %}{% endcapture %}
 
-{% capture title %}{{ page.title }}{% endcapture %}
+{% capture title %}{% if page.title %}{{ page.title }}{% else %}{{ supertitle }}{% endif %}{% endcapture %}
 
 {% capture subtitle %}{% if page.subtitle %}{{ page.subtitle }}{% else %}[{{ author_name }}]({{ author_url }}){% if company_name %}, [{{ company_name }}]({{ company_url }}){% endif %}{% endif %}{% endcapture %}{% capture subtitle %}{{ subtitle | markdownify }}{% endcapture %}
 
