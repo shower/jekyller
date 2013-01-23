@@ -1,3 +1,5 @@
+{% capture strip_whitespace %}
+
 {% assign items = showerify_input | split:'<h1' %}
 {% for item in items %}
     {% assign subitems = item | split:'</h1>' %}
@@ -14,7 +16,7 @@
     {% capture h1_attrs %}{{ item | split:'>' | first }}{% endcapture %}
     {% if flag != false %}
         {% capture showerify_middle %}<section{{ h1_attrs | replace_first:'class="':'class="slide ' }}><div><h2{% endcapture %}
-        {% assign slides = item | remove_first:h1_attrs | split: '<h2' %}
+        {% assign slides = item | remove_first:h1_attrs | replace_first:'</h1>':'</h2>' | split: '<h2' %}
 
         {% assign flag = false %}
         {% for slide in slides %}
@@ -30,9 +32,7 @@
         {% capture showerify_middle %}{{ showerify_middle }}</div></section>{% endcapture %}
     {% else %}
         {% assign flag = true %}
-
-
     {% endif %}
 {% endfor %}
-
-{% capture showerify_output %}{{ showerify_middle }}{% endcapture %}
+{% endcapture %}
+{% capture showerify_output %}{{ showerify_middle | replace:'class="slide" class="':'class="slide ' | replace:'&lt;/mark&gt;':'</mark>' | replace:'&lt;mark&gt;':'<mark>' | replace:'&lt;mark class="comment"&gt;':'<mark class="comment">' | replace:'&lt;mark class="important"&gt;':'<mark class="important">' }}{% endcapture %}
