@@ -9,7 +9,7 @@
 	{% if page.style %}<style>
 {{ page.style }}</style>{%endif%}
 </head>
-<body class="list">
+<body class="{{ body_class }}">
 	<header class="caption">
 		<h1>{{ title }}</h1>
 		{% if subtitle %}{{ subtitle }}{% endif %}

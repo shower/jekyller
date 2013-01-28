@@ -6,6 +6,7 @@ pygments: true
 permalink: /:title.html
 
 default_theme: ribbon
+default_body_class: list
 
 author:
     name: Vadim Makeev
