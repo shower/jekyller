@@ -4,3 +4,6 @@
 [submodule "themes/bright"]
 	path = themes/bright
 	url = git://github.com/shower/bright.git
+[submodule "shower"]
+	path = shower
+	url = https://github.com/shower/shower/
