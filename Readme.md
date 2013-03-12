@@ -34,7 +34,7 @@ So, you just write
 
 
 ``` md
-# You slides' title
+# You slides’ title
 ```
 
 And get this as a title for your slides.
@@ -42,7 +42,7 @@ And get this as a title for your slides.
 If you'll want to make this slide a cover for you slides (and in 99% of cases you'd want), write it like this:
 
 ``` md
-# You slides' title
+# You slides’ title
 {: .cover }
 ```
 
@@ -50,10 +50,10 @@ Everything else goes smoothly: use second level headers to divide the content in
 
 I'll describe there all the things you could do in your presentation, as well as all the available options later in this Readme, so stay tuned!
 
-## Credits and Licence
+## Credits and License
 
 This is just a generator for the awesome [Shower](https://github.com/shower/shower) engine by [pepelsbey](https://github.com/pepelsbey) and [other nice people](https://github.com/shower/shower#contributing).
 
 All the themes are [attached as submodules](https://github.com/kizu/jekyll-shower/tree/gh-pages/themes), and all the rights for them are belong to their authors.
 
-Jekyll Shower licensed under [MIT License](http://en.wikipedia.org/wiki/MIT_License), see [license page](licence.md) for details.
+Jekyll Shower licensed under [MIT License](http://en.wikipedia.org/wiki/MIT_License), see [license page](License.md#the-mit-license) for details.
