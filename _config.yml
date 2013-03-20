@@ -6,6 +6,7 @@ pygments: true
 permalink: /:title.html
 
 default_theme: bright
+default_lang: en
 default_body_class: list
 
 author:
