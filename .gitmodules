@@ -6,4 +6,4 @@
 	url = git://github.com/shower/bright.git
 [submodule "shower"]
 	path = shower
-	url = https://github.com/shower/shower/
+	url = git://github.com/shower/shower/
