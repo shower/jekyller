@@ -15,8 +15,8 @@
 {% for item in items %}
     {% capture h1_attrs %}{{ item | split:'>' | first }}{% endcapture %}
     {% if flag != false %}
-        {% capture showerify_middle %}<section{{ h1_attrs | replace_first:'class="':'class="slide ' }}><div><h2{% endcapture %}
-        {% assign slides = item | remove_first:h1_attrs | replace_first:'</h1>':'</h2>' | split: '<h2' %}
+        {% capture showerify_middle %}<section{{ h1_attrs | replace_first:'class="','class="slide ' }}><div><h2{% endcapture %}
+        {% assign slides = item | remove_first:h1_attrs | replace_first:'</h1>','</h2>' | split: '<h2' %}
 
         {% assign flag = false %}
         {% for slide in slides %}
@@ -27,7 +27,7 @@
             {% else %}
                 {% capture showerify_middle %}{{ showerify_middle }}</div></section>
 <section class="slide"{{ slide_attrs }}><div><h2{% endcapture %}
-                {% capture showerify_middle %}{{ showerify_middle }}{{ slide | replace_first:slide_attrs }}{% endcapture %}
+                {% capture showerify_middle %}{{ showerify_middle }}{{ slide | remove_first:slide_attrs }}{% endcapture %}
             {% endif %}
         {% endfor %}
         {% capture showerify_middle %}{{ showerify_middle }}</div></section>{% endcapture %}
@@ -35,5 +35,11 @@
         {% assign flag = true %}
     {% endif %}
 {% endfor %}
-{% capture showerify_output %}{{ showerify_middle | replace:'class="slide" class="':'class="slide ' | replace:'&lt;/mark&gt;':'</mark>' | replace:'&lt;mark&gt;':'<mark>' | replace:'&lt;mark class="comment"&gt;':'<mark class="comment">' | replace:'&lt;mark class="important"&gt;':'<mark class="important">' }}{% endcapture %}
+<!-- There is a difference between Liquid 1.4.1 and 1.5.0 in replace syntax, and in 1.4.1 you can't chain the one that is only there in 1.5.0, so multiple assigns there -->
+{% assign showerify_middle = showerify_middle | replace:'class="slide" class="','class="slide ' %}
+{% assign showerify_middle = showerify_middle | replace:'&lt;/mark&gt;','</mark>' %}
+{% assign showerify_middle = showerify_middle | replace:'&lt;mark&gt;','<mark>' %}
+{% assign showerify_middle = showerify_middle | replace:'&lt;mark class="comment"&gt;','<mark class="comment">' %}
+{% assign showerify_middle = showerify_middle | replace:'&lt;mark class="important"&gt;','<mark class="important">' %}
+{% capture showerify_output %}{{ showerify_middle }}{% endcapture %}
 {% endcapture %}
