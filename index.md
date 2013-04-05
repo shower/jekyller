@@ -3,6 +3,7 @@
 layout: default
 
 style: |
+
     #Cover h2 {
         margin:65px 0 0;
         color:#FFF;
