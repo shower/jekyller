@@ -6,6 +6,8 @@ It takes your markdown document and transforms it into the Shower slides. Almost
 
 ## Install
 
+### At GitHub Pages
+
 Jekyll Shower works at GitHub Pages. Yes, it's using Jekyll and don't need any extra plugins, so using it is really staightforward:
 
 1. [Fork this repo.](https://github.com/shower/jekyller/fork_select)
@@ -13,6 +15,16 @@ Jekyll Shower works at GitHub Pages. Yes, it's using Jekyll and don't need any e
 3. Commit & Push the changes — GitHub would initialise Pages only on the first push after the forking action. That could take up to 10 minutes.
 
 That's all — after doing so you could go at your generated pages — replace there the `username` with your username: `http://username.github.com/jekyller/`, and you'll see Jekyll-generated example of the Shower presentation.
+
+### Local usage
+
+If you'd like to preview the changes or compile it locally, so you'd have static HTML of your slides (and you could access them without an internet access), you should clone this repo (or a fork) locally:
+
+    git clone --recursive git://github.com/shower/jekyller.git
+    
+Note that you'll need either to use the `--recursive` flag, 'cause there are submodules to fetch, or you'll need to use `git submodule init && git submodule update` in order to fetch them manually if you didn't use this flag.
+
+After cloning all you'll need to do is to run Jekyll in the cloned folder. On how to install and run Jekyll [read it's readme](https://github.com/mojombo/jekyll#getting-started).
 
 ## Use
 
