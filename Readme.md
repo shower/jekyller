@@ -44,18 +44,17 @@ Note that you don't need to place your title here — Jekyller would get it from
 
 So, you just write
 
-
 ``` md
 # You slides’ title
 ```
 
-And get this as a title for your slides.
+And get this as a title for your slides as well as make this slide a cover for the whole presentation.
 
-If you'll want to make this slide a cover for you slides (and in 99% of cases you'd want), write it like this:
+If you won't want to make this slide a cover, but a generic slide, just add a `.slide` class (however, I think you'd rarely would want this — covers are nice!):
 
 ``` md
 # You slides’ title
-{: .cover }
+{:.slide}
 ```
 
 Everything else goes smoothly: use second level headers to divide the content into the slides and all the other tags inside to make your presentation.

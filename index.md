@@ -15,8 +15,7 @@ style: |
 
 ---
 
-# Shower Presentation Engine
-{: .cover #Cover }
+# Shower Presentation Engine {#Cover}
 
 ![](pictures/cover.jpg)
 

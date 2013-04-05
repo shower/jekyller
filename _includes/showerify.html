@@ -15,7 +15,7 @@
 {% for item in items %}
     {% capture h1_attrs %}{{ item | split:'>' | first }}{% endcapture %}
     {% if flag != false %}
-        {% capture showerify_middle %}<section{{ h1_attrs | replace_first:'class="','class="slide ' }}><div><h2{% endcapture %}
+        {% capture showerify_middle %}<section{{ h1_attrs | replace_first:'class="','class="slide ' }}{% unless h1_attrs contains 'class' %} class="slide cover"{% endunless %}><div><h2{% endcapture %}
         {% assign slides = item | remove_first:h1_attrs | replace_first:'</h1>','</h2>' | split: '<h2' %}
 
         {% assign flag = false %}
