@@ -10,108 +10,95 @@ style: |
         text-align:center;
         font-size:70px;
         }
+    #Cover p {
+        margin:10px 0 0;
+        text-align:center;
+        color:#FFF;
+        font-style:italic;
+        font-size:20px;
+        }
+        #Cover p a {
+            color:#FFF;
+            }
     #Picture h2 {
         color:#FFF;
         }
-
+    #SeeMore h2 {
+        font-size:100px
+        }
+    #SeeMore img {
+        width:0.72em;
+        height:0.72em;
+        }
 ---
 
 # Shower Presentation Engine {#Cover}
 
+*Brought you by [Vadim Makeev](http://pepelsbey.net/)*
+
 ![](pictures/cover.jpg)
 
 
-## Slide with timer
-{: data-timing="00:05" }
+## Shower Key Features
 
-It will change right in five seconds
+1. Built on HTML, CSS and vanilla JavaScript
+2. All modern browsers are supported
+3. Slide themes are separated from engine
+4. Fully keyboard accessible
+5. Printable to PDF
 
-<footer>Presenter note for the first slide</footer>
-
-
-## Heading
-
-In your slides text you can use [links](http://google.com/) and various inline elements for _emotional_ and **strong** emphasis or just for <i>italic</i> or <b>bold</b> decoration. `<code>` is used for inline code samples.
-
-<footer>Presenter note for the second slide</footer>
-
-
-## Two rows.<br> Mighty heading
-
-You can use two lines header but it would reduce space on a slide. The “Ribbon” theme is designed for seven lines of code after one-line header by default.
-
-This paragraph could be used as a footnote
 {:.note}
+Shower ['ʃəuə] noun. A person or thing that shows.
 
 
-## Various lists
+## Plain Text on Your Slides
 
-- Simple lists are marked with bullets.
-- Ordered lists begin with a number.
-- You can even nest lists one inside another.
-    1. Or mix their types.
-    2. But do not go too far.
-    3. Otherwise audience will be bored.
-- Look, seven rows exactly!
+Lorem ipsum dolor sit amet, consectetur [adipisicing](#all-kind-of-lists) elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, *quis nostrud* exercitation ullamco laboris **nisi ut aliquip** ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in `<culpa>` qui officia deserunt mollit anim id est laborum.
 
+## All Kind of Lists
 
-## Serious citation
+1. Simple lists are marked with bullets
+2. Ordered lists begin with a number
+3. You can even nest lists one inside another
+    - Or mix their types
+    - But do not go too far
+    - Otherwise audience will be bored
+4. Look, seven rows exactly!
 
-<figure>
-    <blockquote>
-        <p>You can wrap one or more paragraphs into citation, which will make text italic and add a nice quote on the left. Giving the citation source would make it even more serious.</p>
-    </blockquote>
-    <figcaption>Vadim Makeev</figcaption>
+## Serious Citations
+
+<figure markdown="1">
+
+> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+
+<figcaption>Marcus Tullius Cicero</figcaption>
 </figure>
 
+## Code Samples
 
-## When you have a lot of code
-
+    <!DOCTYPE html>
     <html lang="en">
     <mark><head></mark> <mark class="comment"><!--Comment--></mark>
         <title>Shower</title>
         <meta charset="<mark class="important">UTF-8</mark>">
-        <link rel="stylesheet" href="s/screen.css">
-        <script src="j/jquery.js"></script>
+        <link rel="stylesheet" href="screen.css">
     <mark></head></mark>
 
-
-## Code in separate blocks
-
-    <mark><html</mark> lang="en">
-
-Now you can add a note for each block
-{:.note}
-
-    <mark><meta</mark> charset="<mark>UTF-8</mark>">
-
-And explain what is interesting about it
-{:.note}
-
-
-## You can shout<br> this way
-{:.shout}
-
-
-## And place any picture
+## Pictures
 {:.cover #Picture}
 
 ![](pictures/picture.jpg)
 
+## You can even shout this way
+{:.shout}
 
-## Inner navigation
+## Inner Navigation
 
-1. Lets you change objects one by one
-2. {:.next} For example, show list items
-3. {:.next} Or switch pictures
-4. {:.next} And much more
-5. {:.next} But it will work only once
+1. Lets you reveal list items one by one
+2. {:.next}To keep some key points
+3. {:.next}In secret from audience
+4. {:.next}But it will work only once
+5. {:.next}Nobody wants to see the same joke twice
 
-
-## Shower Presentation Engine
-
-Vadim Makeev, Opera Software
-
-- [pepelsbey.net](http://pepelsbey.net)
-- [twitter.com/pepelsbey](http://twitter.com/pepelsbey)
-- [pepelsbey@gmail.com](mailto:pepelsbey@gmail.com)
+## ![](http://shwr.me/pictures/logo.svg) [See more on GitHub](https://github.com/shower/shower/)
+{:.shout #SeeMore}
