@@ -61,6 +61,16 @@ Everything else goes smoothly: use second level headers to divide the content in
 
 I'll describe there all the things you could do in your presentation, as well as all the available options later in this Readme, so stay tuned!
 
+## Features
+
+### GitHub Pages support
+
+See [install](#install) notes on how you can use Shower with Jekyller in just a few easy steps.
+
+### Organize your presentations
+
+With Jekyller you can have all your presentations in one place: just create a new `.md` file in the project, add a proper YAML front matter as mentioned above and start writing you slides!
+
 ## Credits and License
 
 This is just a generator for the awesome [Shower](https://github.com/shower/shower) engine by [pepelsbey](https://github.com/pepelsbey) and [other nice people](https://github.com/shower/shower#contributing).
