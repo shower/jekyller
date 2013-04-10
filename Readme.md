@@ -67,6 +67,91 @@ I'll describe there all the things you could do in your presentation, as well as
 
 See [install](#install) notes on how you can use Shower with Jekyller in just a few easy steps.
 
+### Minimalist markdown
+
+#### The title of the slides
+
+As mentioned above in the [use](#use) section, the only thing that need be there other than YAML front matter is a title made of a markdown first level header:
+
+``` md
+# Some slides
+```
+
+That's it, nothing more!
+
+#### Slides
+
+Every other slide should start from the second level header, just like this:
+
+``` md
+## I'm a slide!
+```
+
+You don't need to recreate or think on Shower's HTML structure, you just delimit the slides using headers, easy as this.
+
+##### id for the slide
+
+By default the slide would take an `id` from it's content, almost like in GitHub-flavored markdown. But if you want to override it, you could use the syntax [kramdown](http://kramdown.rubyforge.org) (which is used for Jekyller) provides, like this:
+
+``` md
+## I'm a slide! {#Foo}
+```
+
+In this way the slide would have `id="Foo"` instead.
+
+##### Extra classes or attributes
+
+Another way to add stuff to a slide is to use a more general syntax (`{:…}`) from kramdown for adding different attributes.
+
+Just add any of them to the header and they would propagate to the slide. Like this:
+
+``` md
+## Pictures
+{:.cover #Picture}
+```
+
+or 
+
+``` md
+{:.shout data-timing="00:03"}
+## You can even shout this way
+```
+
+In the first example you can see how we make a “cover” from a slide adding `.cover` class, and also when you're using this syntax you need to move `id` reference inside it, so you can't use the on-line one above with adding other attributes.
+
+In the second example you can see another variant of the attributes block usage — you can place it either after or before the heading, it doesn't matter to kramdown, so use it as you like. In this second example you can see how you can set any custom attributes from there.
+
+#### Embedded HTML
+
+Of course even extended by kramdown markdown syntax don't have everything in it. So if you'd like to add something _extra_, you could just use plain HTML there. Like this:
+
+``` md
+<figure markdown="1">
+
+> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+
+<figcaption>Marcus Tullius Cicero</figcaption>
+</figure>
+```
+
+Also, kramdown is somewhat smart about the html, so when you open a tag it won't treat anything inside as markdown. You can change this by using kramdown-specific attribute `markdown="1"`, so everything inside would be rendered as markdown.
+
+#### Attributes blocks
+
+As mentioned in the part on extra classes for slides, kramdown adds a way to add any attributes to markdown tags. For block-level entities add `{:…}` at the line above or beyond the block, for inline blocks use it at the start of its content, so for marking list items to have inner navigation you can use this:
+
+``` md
+1. Lets you reveal list items one by one
+2. {:.next}To keep some key points
+3. {:.next}In secret from audience
+4. {:.next}But it will work only once
+5. {:.next}Nobody wants to see the same joke twice
+```
+
+#### A lot more coming soon!
+
+Some of those examples would be made easier in the feature — we're planning on etending the markdown syntax with shower-specific things, so you could easier mark shouts, `<mark>` inside code blocks and other stuff. Stay tuned!
+
 ### Organize your presentations
 
 With Jekyller you can have all your presentations in one place: just create a new `.md` file in the project, add a proper YAML front matter as mentioned above and start writing you slides!
