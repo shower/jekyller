@@ -61,6 +61,56 @@ Everything else goes smoothly: use second level headers to divide the content in
 
 I'll describe there all the things you could do in your presentation, as well as all the available options later in this Readme, so stay tuned!
 
+## Configure
+
+### Change theme
+
+By default Jekyller comes with the [ribbon theme](https://github.com/shower/ribbon) applied to all new slides. If you wish to change the default theme, change the `default_theme` variable in [config](_config.yml#L9).
+
+Right now only two themes are available: `ribbon` and [`bright`](https://github.com/shower/bright).
+
+Themes are attached as submodules, so if you'd like to add your own great theme for Shower so anyone could use it with Jekyller, just send a pull request with it! However, don't forget that it should be attached via git read-only url — `git://` — in order to work under GitHub Pages.
+
+And if you'd like to change theme per presentation, just define `theme` variable in YAML front matter, so to use `bright` theme your minimal front matter would look like this:
+
+``` YAML
+---
+layout: default
+theme: bright
+---
+```
+
+### Author info
+
+I know you'd like to change the default placeholdered author info for your slides. This is also is manageble through [config](_config.yml#L13), look at the `author` object there. It have multiple sub-properties like `name`, `url` for your blog/twitter/etc. and a field for your company. Change it!
+
+And, of course, you could change those thing per presentation in YAML front matter. And while the syntax in config is rather strict, in YAML you could use a lot of variants, like not using the url or company, so this would be ok:
+
+``` YAML
+---
+layout: default
+author: John Smith
+---
+```
+
+### Language
+
+There is a `default_lang` variable in [config](_config.yml#L10), it's defaulted to `en`, but there is also `ru` supported for Russian. It don't do much, for now it changes the style of list markers and quotes.
+
+Of course, it's available to redefine per-presentation in YAML front matter as a `lang` variable.
+
+### Body class
+
+Bu default Shower page opens in list mode, but if you'd like to open in fullscreen mode from the start (to avoid spoilers, for example), you can change the class on `body` to `full` either redefining the `default_body_class: full` in [config](_config.yml#L11), either using `body_class: full` in YAML front matter.
+
+### Progress bar
+
+If you'd like to disable the progress bar, just set the `progress` (in [config](_config.yml#L21) or in YAML front matter) to `false`.
+
+### More configuration option coming
+
+Stay tuned or propose your options in [Issues](https://github.com/shower/jekyller/issues)!
+
 ## Features
 
 ### GitHub Pages support
