@@ -37,6 +37,7 @@ style: |
 *Brought you by [Vadim Makeev](http://pepelsbey.net/)*
 
 ![](pictures/cover.jpg)
+<!-- photo by John Carey, fiftyfootshadows.net -->
 
 
 ## Shower Key Features
@@ -88,6 +89,7 @@ Lorem ipsum dolor sit amet, consectetur [adipisicing](#all-kind-of-lists) elit, 
 {:.cover #Picture}
 
 ![](pictures/picture.jpg)
+<!-- photo by John Carey, fiftyfootshadows.net -->
 
 ## You can even shout this way
 {:.shout}

@@ -11,11 +11,11 @@ default_lang: en
 default_body_class: list
 
 author:
-    name: Vadim Makeev
-    url:  http://pepelsbey.net/
+    name: Yours Truly
+    # url:  http://example.com/
     company:
-        name: Opera Software
-        url:  http://opera.com
+        name: Famous Inc.
+        # url:  http://example.com/
 
 fork_url: https://github.com/shower/shower
 progress: true
