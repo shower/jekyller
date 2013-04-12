@@ -171,6 +171,22 @@ In the first example you can see how we make a “cover” from a slide adding `
 
 In the second example you can see another variant of the attributes block usage — you can place it either after or before the heading, it doesn't matter to kramdown, so use it as you like. In this second example you can see how you can set any custom attributes from there.
 
+##### Covers with images
+
+If you'd like to have a cover without header, just use an image inside a header like this:
+
+``` md
+## ![](pictures/picture.jpg)
+{:.cover}
+```
+
+Also, Shower engine allows you to say if the image should be fit to the width or height using the classes of `.w` for width and `.h` for height. Like this:
+
+``` md
+## ![](pictures/picture.jpg)
+{:.cover .h}
+```
+
 #### Embedded HTML
 
 Of course even extended by kramdown markdown syntax don't have everything in it. So if you'd like to add something _extra_, you could just use plain HTML there. Like this:
