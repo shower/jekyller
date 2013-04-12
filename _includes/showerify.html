@@ -41,5 +41,10 @@
 {% assign showerify_middle = showerify_middle | replace:'&lt;mark&gt;','<mark>' %}
 {% assign showerify_middle = showerify_middle | replace:'&lt;mark class="comment"&gt;','<mark class="comment">' %}
 {% assign showerify_middle = showerify_middle | replace:'&lt;mark class="important"&gt;','<mark class="important">' %}
+
+<!-- Prototype of #3, need to split things here -->
+<!-- is there a way to declare <hr/> with classes/attributes? -->
+{% assign showerify_middle = showerify_middle | replace:'<hr />','</div></section><section class="slide"><div>' %}
+
 {% capture showerify_output %}{{ showerify_middle }}{% endcapture %}
 {% endcapture %}
