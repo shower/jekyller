@@ -187,6 +187,18 @@ Also, Shower engine allows you to say if the image should be fit to the width or
 {:.cover .h}
 ```
 
+#### Presenter notes
+
+In Shower the presenter notes are made by using `<footer>` tag. Jekyller provides you a convenient way to write short ones — just write them like this:
+
+``` md
+// I'm a presenter note!
+```
+
+That's it — a line starting with `//` followed by one optional space would be wrapped by `<footer>`.
+
+However, if you'd want more complex note, you'd need to use plain html `<footer>`, 'cause there is no way to place anything block-level inside this “comment” right now.
+
 #### Embedded HTML
 
 Of course even extended by kramdown markdown syntax don't have everything in it. So if you'd like to add something _extra_, you could just use plain HTML there. Like this:

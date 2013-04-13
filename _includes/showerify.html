@@ -42,6 +42,32 @@
 {% assign showerify_middle = showerify_middle | replace:'&lt;mark class="comment"&gt;','<mark class="comment">' %}
 {% assign showerify_middle = showerify_middle | replace:'&lt;mark class="important"&gt;','<mark class="important">' %}
 
+<!-- Replacing inline “comment” with <footer> -->
+{% assign footers = showerify_middle | split:'<p>// ' %}
+{% assign iteration = 0 %}
+{% for footer in footers %}
+    {% if iteration > 0 %}
+        {% assign footer_content = footer | split:'</p>' | first %}
+        {% capture footer_oldcontent %}<p>// {{ footer_content }}</p>{% endcapture %}
+        {% capture footer_newcontent %}<footer>{{ footer_content }}</footer>{% endcapture %}
+        {% assign showerify_middle = showerify_middle | replace_first:footer_oldcontent,footer_newcontent %}
+    {% endif %}
+    {% assign iteration = iteration | plus:1 %}
+{% endfor %}
+
+<!-- The same thing, but this time for comment without the space -->
+{% assign footers = showerify_middle | split:'<p>//' %}
+{% assign iteration = 0 %}
+{% for footer in footers %}
+    {% if iteration > 0 %}
+        {% assign footer_content = footer | split:'</p>' | first %}
+        {% capture footer_oldcontent %}<p>//{{ footer_content }}</p>{% endcapture %}
+        {% capture footer_newcontent %}<footer>{{ footer_content }}</footer>{% endcapture %}
+        {% assign showerify_middle = showerify_middle | replace_first:footer_oldcontent,footer_newcontent %}
+    {% endif %}
+    {% assign iteration = iteration | plus:1 %}
+{% endfor %}
+
 <!-- Prototype of #3, need to split things here -->
 <!-- is there a way to declare <hr/> with classes/attributes? -->
 {% assign showerify_middle = showerify_middle | replace:'<hr />','</div></section><section class="slide"><div>' %}
