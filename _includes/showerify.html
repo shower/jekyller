@@ -21,13 +21,25 @@
         {% assign flag = false %}
         {% for slide in slides %}
             {% capture slide_attrs %}{{ slide | split:'>' | first }}{% endcapture %}
+
+            <!-- Looking for strong in header for shout -->
+            {% capture slide_header_content %}^BEGIN^{{ slide | remove_first:slide_attrs | split:'</h2>' | first }}$END${% endcapture %}
+            {% if slide_header_content contains '^BEGIN^><strong>' and slide_header_content contains '</strong>$END$' %}
+                {% assign slide_extra_class = ' shout' %}
+            {% endif %}
+
             {% if flag == false %}
                 {% capture showerify_middle %}{{ showerify_middle }}{{ slide }}{% endcapture %}
                 {% assign flag = true %}
             {% else %}
                 {% capture showerify_middle %}{{ showerify_middle }}</div></section>
-<section class="slide"{{ slide_attrs }}><div><h2{% endcapture %}
-                {% capture showerify_middle %}{{ showerify_middle }}{{ slide | remove_first:slide_attrs }}{% endcapture %}
+<section class="slide{{ slide_extra_class }}"{{ slide_attrs }}><div><h2{% endcapture %}
+                {% assign newslide = slide | remove_first:slide_attrs %}
+                {% if slide_extra_class %}
+                    {% assign newslide = newslide | replace_first:'><strong>','>' %}
+                    {% assign newslide = newslide | replace_first:'</strong></h2>','</h2>' %}
+                {% endif %}
+                {% capture showerify_middle %}{{ showerify_middle }}{{ newslide }}{% endcapture %}
             {% endif %}
         {% endfor %}
         {% capture showerify_middle %}{{ showerify_middle }}</div></section>{% endcapture %}

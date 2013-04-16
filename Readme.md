@@ -149,6 +149,17 @@ By default the slide would take an `id` from it's content, almost like in GitHub
 
 In this way the slide would have `id="Foo"` instead.
 
+##### Shouting
+
+If you'd like to _shout_ (use the `shout` class on a slide), you could just wrap the content of a header with `strong`:
+
+
+```md
+## **You can even shout this way**
+```
+
+This would make such slide a `shout` one.
+
 ##### Extra classes or attributes
 
 Another way to add stuff to a slide is to use a more general syntax (`{:…}`) from kramdown for adding different attributes.

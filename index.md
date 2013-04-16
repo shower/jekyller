@@ -91,8 +91,7 @@ Lorem ipsum dolor sit amet, consectetur [adipisicing](#all-kind-of-lists) elit, 
 ![](pictures/picture.jpg)
 <!-- photo by John Carey, fiftyfootshadows.net -->
 
-## You can even shout this way
-{:.shout}
+## **You can even shout this way**
 
 ## Inner Navigation
 
