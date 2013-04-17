@@ -96,6 +96,12 @@
     {% assign iteration = iteration | plus:1 %}
 {% endfor %}
 
+<!-- Adding .next to list items -->
+
+{% assign showerify_middle = showerify_middle | replace:'<li>..','<li class="next">' %}
+{% assign showerify_middle = showerify_middle | replace:'<li class="next">.','<li>...' %}
+{% assign showerify_middle = showerify_middle | replace:'<li class="next"> ','<li class="next">' %}
+
 <!-- Prototype of #3, need to split things here -->
 <!-- is there a way to declare <hr/> with classes/attributes? -->
 {% assign showerify_middle = showerify_middle | replace:'<hr />','</div></section><section class="slide"><div>' %}
