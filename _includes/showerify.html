@@ -97,10 +97,13 @@
 {% endfor %}
 
 <!-- Adding .next to list items -->
-
-{% assign showerify_middle = showerify_middle | replace:'<li>..','<li class="next">' %}
-{% assign showerify_middle = showerify_middle | replace:'<li class="next">.','<li>...' %}
-{% assign showerify_middle = showerify_middle | replace:'<li class="next"> ','<li class="next">' %}
+{% assign showerify_middle = showerify_middle | replace:'>...',' class="next">' %}
+{% assign showerify_middle = showerify_middle | replace:'>&hellip;',' class="next">' %}
+{% assign showerify_middle = showerify_middle | replace:'>…',' class="next">' %}
+{% assign showerify_middle = showerify_middle | replace:' class="next"> ',' class="next">' %}
+{% assign showerify_middle = showerify_middle | replace:'>\...','>...' %}
+{% assign showerify_middle = showerify_middle | replace:'>\&hellip;','>&hellip;' %}
+{% assign showerify_middle = showerify_middle | replace:'>\…','>…' %}
 
 <!-- Prototype of #3, need to split things here -->
 <!-- is there a way to declare <hr/> with classes/attributes? -->

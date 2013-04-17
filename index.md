@@ -96,10 +96,10 @@ Lorem ipsum dolor sit amet, consectetur [adipisicing](#all-kind-of-lists) elit, 
 ## Inner Navigation
 
 1. Lets you reveal list items one by one
-2. .. To keep some key points
-3. .. In secret from audience
-4. .. But it will work only once
-5. .. Nobody wants to see the same joke twice
+2. …To keep some key points
+3. …In secret from audience
+4. …But it will work only once
+5. …Nobody wants to see the same joke twice
 
 ## ![](http://shwr.me/pictures/logo.svg) [See more on GitHub](https://github.com/shower/shower/)
 {:.shout #SeeMore}

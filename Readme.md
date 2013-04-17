@@ -239,17 +239,27 @@ As mentioned in the part on extra classes for slides, kramdown adds a way to add
 
 #### Shortcut for `.next` list items
 
-As you can see above, the syntax for making `.next` to list items is not that convenient. That's why we added a way to write it easy and fast: use two dots at the beginning of a list item (optionally followed by a space character) and you'd get this class automatically:
+As you can see above, the syntax for making `.next` to list items is not that convenient. That's why we added a way to write it easy and fast: use three dots (or an ellipsis symbol) at the beginning of a list item (optionally followed by a space character) and you'd get this class automatically:
 
 ``` md
 1. Lets you reveal list items one by one
-2. .. To keep some key points
-3. .. In secret from audience
-4. .. But it will work only once
-5. .. Nobody wants to see the same joke twice
+2. …To keep some key points
+3. …In secret from audience
+4. …But it will work only once
+5. …Nobody wants to see the same joke twice
 ```
 
-See, it's so much better and readable now.
+See, it's so much better and readable now. And as we already mentioned, there are few ways you could write those ellipsis, choose any style you like, they're equal:
+
+``` md
+1. Lets you reveal list items one by one
+2. ...To keep some key points
+3. ... In secret from audience
+4. …But it will work only once
+5. … Nobody wants to see the same joke twice
+```
+
+And if you'd like to use an actual ellpsis and not to have it transformed to `.next`, just escape it like this: `\…` (or `...` if you're using plain dots).
 
 #### A lot more coming soon!
 
