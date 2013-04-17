@@ -24,6 +24,7 @@
 
             <!-- Looking for strong in header for shout -->
             {% capture slide_header_content %}^BEGIN^{{ slide | remove_first:slide_attrs | split:'</h2>' | first }}$END${% endcapture %}
+            {% assign slide_extra_class = '' %}
             {% if slide_header_content contains '^BEGIN^><strong>' and slide_header_content contains '</strong>$END$' %}
                 {% assign slide_extra_class = ' shout' %}
             {% endif %}
