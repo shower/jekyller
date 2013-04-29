@@ -1,5 +1,6 @@
 {% capture strip_whitespace %}
 {% capture theme %}{% if page.theme %}{{ page.theme }}{% else %}{{ site.default_theme }}{% endif %}{% endcapture %}
+{% capture width %}{% if page.width %}{{ page.width }}{% else %}{{ site.default_width }}{% endif %}{% endcapture %}
 {% capture lang %}{% if page.lang %}{{ page.lang }}{% else %}{{ site.default_lang }}{% endif %}{% endcapture %}
 {% capture body_class %}{% if page.body_class %}{{ page.body_class }}{% else %}{{ site.default_body_class }}{% endif %}{% endcapture %}
 

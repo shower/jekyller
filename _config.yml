@@ -7,6 +7,7 @@ permalink: /:title.html
 exclude: [shower,themes]
 
 default_theme: ribbon
+default_width: 792
 default_lang: en
 default_body_class: list
 
