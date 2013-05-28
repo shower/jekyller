@@ -30,12 +30,6 @@ style: |
         width:0.72em;
         height:0.72em;
         }
-    pre {
-        font-size: 0.8em;
-        }
-    code {
-        line-height: 1.4;
-        }
 ---
 
 # Shower Presentation Engine {#Cover}
