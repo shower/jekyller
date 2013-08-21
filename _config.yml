@@ -1,6 +1,4 @@
-auto: true
 safe: true
-server: true
 markdown: kramdown
 pygments: true
 permalink: /:title.html
