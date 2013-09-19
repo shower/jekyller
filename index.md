@@ -89,12 +89,12 @@ Lorem ipsum dolor sit amet, consectetur [adipisicing](#all-kind-of-lists) elit, 
 
 <!-- Need to add row `th` somehow -->
 
-| Locavore     | Umami       | Helvetica | Vegan     |
-+--------------|-------------|-----------|-----------+
-| Fingerstache | Kale        | Chips     | Keytar    |
-| Sriracha     | Gluten-free | Ennui     | Keffiyeh  |
-| Thundercats  | Jean        | Shorts    | Biodiesel |
-| Terry        | Richardson  | Swag      | Blog      |
+|  Locavore      | Umami       | Helvetica | Vegan     |
++----------------|-------------|-----------|-----------+
+|* Fingerstache *| Kale        | Chips     | Keytar    |
+|* Sriracha     *| Gluten-free | Ennui     | Keffiyeh  |
+|* Thundercats  *| Jean        | Shorts    | Biodiesel |
+|* Terry        *| Richardson  | Swag      | Blog      |
 
 It’s good to have information organized.
 

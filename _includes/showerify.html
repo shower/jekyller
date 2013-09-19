@@ -105,6 +105,12 @@
 {% assign showerify_middle = showerify_middle | replace:'>\&hellip;','>&hellip;' %}
 {% assign showerify_middle = showerify_middle | replace:'>\…','>…' %}
 
+<!-- By default all the simple `<th>` are for cols -->
+{% assign showerify_middle = showerify_middle | replace:'<th>','<th scope="col">' %}
+<!-- And all the td starting/ending with asteriks are row ths -->
+{% assign showerify_middle = showerify_middle | replace:'<td>* ','<th scope="row">' %}
+{% assign showerify_middle = showerify_middle | replace:' *</td>','</th>' %}
+
 <!-- Prototype of #3, need to split things here -->
 <!-- is there a way to declare <hr/> with classes/attributes? -->
 {% assign showerify_middle = showerify_middle | replace:'<hr />','</div></section><section class="slide"><div>' %}
