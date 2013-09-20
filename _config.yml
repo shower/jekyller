@@ -2,7 +2,6 @@ safe: true
 markdown: kramdown
 pygments: true
 permalink: /:title.html
-exclude: [shower,themes]
 
 default_theme: ribbon
 default_width: 792
