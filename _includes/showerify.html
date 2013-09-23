@@ -52,6 +52,7 @@
 {% assign showerify_middle = showerify_middle | replace:'class="slide" class="','class="slide ' %}
 {% assign showerify_middle = showerify_middle | replace:'&lt;/mark&gt;','</mark>' %}
 {% assign showerify_middle = showerify_middle | replace:'&lt;mark&gt;','<mark>' %}
+{% assign showerify_middle = showerify_middle | replace:'&lt;mark class="next"&gt;','<mark class="next">' %}
 {% assign showerify_middle = showerify_middle | replace:'&lt;mark class="comment"&gt;','<mark class="comment">' %}
 {% assign showerify_middle = showerify_middle | replace:'&lt;mark class="important"&gt;','<mark class="important">' %}
 
@@ -110,6 +111,9 @@
 <!-- And all the td starting/ending with asteriks are row ths -->
 {% assign showerify_middle = showerify_middle | replace:'<td>* ','<th scope="row">' %}
 {% assign showerify_middle = showerify_middle | replace:' *</td>','</th>' %}
+
+<!-- Kramdown mailto problem -->
+{% assign showerify_middle = showerify_middle | replace:'href="mail:','href="mailto:' %}
 
 <!-- Prototype of #3, need to split things here -->
 <!-- is there a way to declare <hr/> with classes/attributes? -->
