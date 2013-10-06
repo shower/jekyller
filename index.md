@@ -87,8 +87,6 @@ Lorem ipsum dolor sit amet, consectetur [adipisicing](#all-kind-of-lists) elit, 
 
 ## Even Tables
 
-<!-- Need to add row `th` somehow -->
-
 |  Locavore      | Umami       | Helvetica | Vegan     |
 +----------------|-------------|-----------|-----------+
 |* Fingerstache *| Kale        | Chips     | Keytar    |

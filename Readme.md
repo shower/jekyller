@@ -198,6 +198,27 @@ Also, Shower engine allows you to say if the image should be fit to the width or
 {:.cover .h}
 ```
 
+#### Tables
+
+As Jekyller is using kramdown engine, you can use the [kramdown syntax for tables](http://kramdown.rubyforge.org/syntax.html#tables).
+
+Briefly, you can use them like that::
+
+``` md
+|  Locavore      | Umami       | Helvetica | Vegan     |
++----------------|-------------|-----------|-----------+
+|* Fingerstache *| Kale        | Chips     | Keytar    |
+|* Sriracha     *| Gluten-free | Ennui     | Keffiyeh  |
+|* Thundercats  *| Jean        | Shorts    | Biodiesel |
+|* Terry        *| Richardson  | Swag      | Blog      |
+```
+
+You can see a little difference from the kramdown syntax: there is now a way to make `th`s with row scope: just start and end the cell with asterisks:
+
+``` md
+|* Fingerstache *|
+```
+
 #### Presenter notes
 
 In Shower the presenter notes are made by using `<footer>` tag. Jekyller provides you a convenient way to write short ones — just write them like this:
