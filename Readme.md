@@ -71,12 +71,11 @@ Right now only two themes are available: `ribbon` and [`bright`](https://github.
 
 Themes are attached as submodules, so if you'd like to add your own great theme for Shower so anyone could use it with Jekyller, just send a pull request with it! However, don't forget that it should be attached via git read-only url — `git://` — in order to work under GitHub Pages.
 
-And if you'd like to change theme per presentation, just define `theme` variable in YAML front matter, so to use `bright` theme your minimal front matter would look like this:
+And if you'd like to change theme per presentation, just define `theme` variable in YAML front matter or refefine the `layout` one with the one you want to use, so to use `bright` theme your minimal front matter would look like this:
 
 ``` YAML
 ---
-layout: default
-theme: bright
+layout: bright
 ---
 ```
 
