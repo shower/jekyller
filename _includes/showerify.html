@@ -1,5 +1,5 @@
 {% capture strip_whitespace %}
-
+{% include setup.md %}
 {% assign items = showerify_input | split:'<h1' %}
 {% for item in items %}
     {% assign subitems = item | split:'</h1>' %}
@@ -83,19 +83,21 @@
 {% endfor %}
 
 <!-- Code with line-numbers -->
-{% assign code_blocks = showerify_middle | split:'<pre><code>' %}
-{% assign iteration = 0 %}
-{% for code_block in code_blocks %}
-    {% if iteration > 0 %}
-        {% assign code_block_content = code_block | split:'</code></pre>' | first %}
-        {% capture code_block_oldcontent %}<pre><code>{{ code_block_content }}</code></pre>{% endcapture %}
-        {% assign code_block_newcontent = code_block_oldcontent | newline_to_br | strip_newlines | replace:'<br />','</code><code>' %}
-        {% assign code_block_newcontent = code_block_newcontent | replace:'<code></code></pre>','</pre>' %}
-        {% assign code_block_newcontent = code_block_newcontent | replace:'<code></code>','<code> </code>' %}
-        {% assign showerify_middle = showerify_middle | replace_first:code_block_oldcontent,code_block_newcontent %}
-    {% endif %}
-    {% assign iteration = iteration | plus:1 %}
-{% endfor %}
+{% if line_numbers %}
+    {% assign code_blocks = showerify_middle | split:'<pre><code>' %}
+    {% assign iteration = 0 %}
+    {% for code_block in code_blocks %}
+        {% if iteration > 0 %}
+            {% assign code_block_content = code_block | split:'</code></pre>' | first %}
+            {% capture code_block_oldcontent %}<pre><code>{{ code_block_content }}</code></pre>{% endcapture %}
+            {% assign code_block_newcontent = code_block_oldcontent | newline_to_br | strip_newlines | replace:'<br />','</code><code>' %}
+            {% assign code_block_newcontent = code_block_newcontent | replace:'<code></code></pre>','</pre>' %}
+            {% assign code_block_newcontent = code_block_newcontent | replace:'<code></code>','<code> </code>' %}
+            {% assign showerify_middle = showerify_middle | replace_first:code_block_oldcontent,code_block_newcontent %}
+        {% endif %}
+        {% assign iteration = iteration | plus:1 %}
+    {% endfor %}
+{% endif %}
 
 <!-- Adding .next to list items -->
 {% assign showerify_middle = showerify_middle | replace:'>...',' class="next">' %}

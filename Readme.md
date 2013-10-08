@@ -218,6 +218,10 @@ You can see a little difference from the kramdown syntax: there is now a way to 
 |* Fingerstache *|
 ```
 
+#### Code with line numbers
+
+By default Jekyller would add line numbers to your code blocks. If you'd like to disable this, add `line_numbers: false` to your YAML front matter or toggle the global variable in the `_config.yml`.
+
 #### Presenter notes
 
 In Shower the presenter notes are made by using `<footer>` tag. Jekyller provides you a convenient way to write short ones — just write them like this:
