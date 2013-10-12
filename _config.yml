@@ -2,6 +2,7 @@ safe: true
 markdown: kramdown
 pygments: true
 permalink: /:title.html
+relative_permalinks: false
 
 default_theme: ribbon
 default_width: 792
