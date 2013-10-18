@@ -1,4 +1,6 @@
-# Jekyller
+# Jekyller [![Build Status][build]][build-link]
+[build]: https://travis-ci.org/shower/jekyller.png?branch=gh-pages
+[build-link]: https://travis-ci.org/shower/jekyller
 
 This is a generator for the [Shower HTML presentation engine](https://github.com/shower/shower).
 
