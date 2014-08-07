@@ -10,12 +10,12 @@ default_lang: en
 default_body_class: list
 
 author:
-    name: Yours Truly
-    # url:  http://example.com/
+    name: George Ajam
+    # url:  http://geoiq.blogspot.com/
     company:
-        name: Famous Inc.
+        name: Uni Babylon.
         # url:  http://example.com/
 
-fork_url: https://github.com/shower/shower
+fork_url: https://github.com/geoiraq/jekyller
 progress: true
 line_numbers: true
