@@ -24,11 +24,11 @@ style: |
         color:#FFF;
         }
     #SeeMore h2 {
-        font-size:400px
+        font-size:100px
         }
     #SeeMore img {
-        width:0.72em;
-        height:0.72em;
+        width:0.22em;
+        height:0.22em;
         }
 ---
 
