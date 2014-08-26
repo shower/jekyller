@@ -27,8 +27,8 @@ style: |
         font-size:100px
         }
     #SeeMore img {
-        width:0.22em;
-        height:0.22em;
+        width:0.72em;
+        height:0.72em;
         }
 ---
 
