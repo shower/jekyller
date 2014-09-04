@@ -61,6 +61,8 @@ The license means **permission(s)** granted by *“licensor”* (creator/holder 
 *“anonymous work” : a work done by a non identified person/author.
 *“pseudonymous work”: a work done by someone identified by a fictitious name.
 *“collective work” is a work in which a number of contributions that contains separate and independent works in themselves, are assembled into a collective whole.
+
+## Definitions [4] cont'd
 *A “derivative work” is a work based upon one or more preexisting works, such as a translation, musical arrangement, dramatization, fictionalization, motion picture version, sound recording, art reproduction, abridgment, condensation, or any other form in which a work may be recast, transformed, or adapted. A work consisting of editorial revisions, annotations, elaborations, or other modifications which, as a whole, represent an original work of authorship, is a “derivative work”.
 
 ## Copyrights Options
