@@ -48,11 +48,9 @@ Defined as the legal right created by the law of a country, that grants the crea
 2. Original work or expression of idea is protected (not the idea itself) automatically in Australia [2], and centralized in USA by United State Copyrights Office [3].
 
 ## Duration of Copyright
-*Literacy, dramatic, musical and artistic works, lasts 70 years from the year of the author's death or from the year of first publication after the author's death.
-
-*Films and sound recordings lasts 70 years from their publication and for broadcasts, 70 years from the year in which they were made.
-
-*Copyrights may be extended to 20 years if expires.
+-Literacy, dramatic, musical and artistic works, lasts 70 years from the year of the author's death or from the year of first publication after the author's death.
+-Films and sound recordings lasts 70 years from their publication and for broadcasts, 70 years from the year in which they were made.
+-Copyrights may be extended to 20 years if expires.
 
 ## License
 The license means **permission(s)** granted by *“licensor”* (creator/holder of license) to another party “licensee” as an element of an authorization agreement to use the copyrighted material (by the licensee). 
