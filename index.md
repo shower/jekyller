@@ -74,26 +74,39 @@ Any document may fall in one of the below categories
 A similar licenses to Creative commons are also exists to Databases [(Open Database License)](opendatacommons.org/licenses/odbl/) 
 
 ##Rights under Creative Common (CC) Licenses
-- All Rights Reserved.
-No distribution, copy, use, tweak, reuse, mix or build upon unless getting permission (license) from the copyrights holder.
-- Creative Common Zero CC0.
-No Rights Reserved.
-- Creative Common Attribution.
-lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit the creator
-- Creative Common Attribution-NoDerivs. 
-allows for redistribution, commercial and non-commercial, as long as it is passed along unchanged and in whole, with credit to creator.
+1. *All Rights Reserved*.
+  No distribution, copy, use, tweak, reuse, mix or build upon unless getting permission (license) from the copyrights holder.
+2. *Creative Common Zero CC0*.
+  No Rights Reserved.
+3. *Creative Common Attribution*.
+  lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit the creator
 
 ##Rights under Creative Common (CC) Licenses. *Cont'd*
-- Creative Common Attribution-NonCommercial-ShareAlike.
+4. *Creative Common Attribution-NoDerivs*. 
+allows for redistribution, commercial and non-commercial, as long as it is passed along unchanged and in whole, with credit to creator.
+5. *Creative Common Attribution-NonCommercial-ShareAlike*.
 lets others remix, tweak, and build upon your work non-commercially, as long as they credit you and license their new creations under the identical terms
-- Creative Common Attribution-ShareAlike.
+6. *Creative Common Attribution-ShareAlike*.
  remix, tweak, and build upon the work even for commercial purposes, as long as the user credit creator and license their new creations under the identical terms.(copyleft)
-- Creative Common Attribution-NonCommercial.
- This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms.
-- Creative Common Attribution-NonCommercial-NoDerivs.
- This license is the most restrictive, only allowing others to download the work and share it with others as long as they credit you, but they can’t change them in any way or use them commercially.
-- 
 
+##Rights under Creative Common (CC) Licenses. *Cont'd*
+7. *Creative Common Attribution-NonCommercial*.
+ This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms.
+8. *Creative Common Attribution-NonCommercial-NoDerivs*.
+ This license is the most restrictive, only allowing others to download the work and share it with others as long as they credit you, but they can’t change them in any way or use them commercially.
+
+## Tools to choose a license
+- Creative Common help users pick a public license from this [tool](http://creativecommons.org/choose/).
+- It offers a different public licenses formed in: 
+  - Description of the License.
+  - Logo of the license with link to the license which normally be in human readable format.
+
+## Who uses CC
+For publishing work under Creative Commons there are major communities such as:
+
+Wikipedia, scribd, slidshare, Internet Archive,
+Flickr, wordPress, Blogger, Vimeo, Youtube,
+Wikimedia Commons, SoundCloud..
 
 
 
