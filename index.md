@@ -109,7 +109,10 @@ Wikipedia, scribd, slidshare, Internet Archive,
 Flickr, wordPress, Blogger, Vimeo, Youtube,
 Wikimedia Commons, SoundCloud..
 
+## Settings of CC
+{:.cover #Picture}
 
+![](pictures/content cc 0.png)
 
 
 
