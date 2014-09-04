@@ -49,7 +49,9 @@ Defined as the legal right created by the law of a country, that grants the crea
 
 ## Duration of Copyright
 *Literacy, dramatic, musical and artistic works, lasts 70 years from the year of the author's death or from the year of first publication after the author's death.
+
 *Films and sound recordings lasts 70 years from their publication and for broadcasts, 70 years from the year in which they were made.
+
 *Copyrights may be extended to 20 years if expires.
 
 ## License
