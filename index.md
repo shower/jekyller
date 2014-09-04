@@ -53,24 +53,54 @@ Defined as the legal right created by the law of a country, that grants the crea
  - Copyrights may be extended to 20 years if expires.
 
 ## License
-The license means **permission(s)** granted by *“licensor”* (creator/holder of license) to another party “licensee” as an element of an authorization agreement to use the copyrighted material (by the licensee). 
+The license means **permission(s)** granted by *“licensor”* (creator/holder of license) to another party **“licensee”** as an element of an authorization agreement to use the copyrighted material (by the licensee). 
 
 ## Definitions [4]
-*“anonymous work” : a work done by a non identified person/author.
-*“pseudonymous work”: a work done by someone identified by a fictitious name.
-*“collective work” is a work in which a number of contributions that contains separate and independent works in themselves, are assembled into a collective whole.
+- “anonymous work” : a work done by a non identified person/author.
+- “pseudonymous work”: a work done by someone identified by a fictitious name.
+- “collective work” is a work in which a number of contributions that contains separate and independent works in themselves, are assembled into a collective whole.
 
-## Definitions [4] cont'd
-*A “derivative work” is a work based upon one or more preexisting works, such as a translation, musical arrangement, dramatization, fictionalization, motion picture version, sound recording, art reproduction, abridgment, condensation, or any other form in which a work may be recast, transformed, or adapted. A work consisting of editorial revisions, annotations, elaborations, or other modifications which, as a whole, represent an original work of authorship, is a “derivative work”.
+## Definitions [4] *cont'd*
+- A “derivative work” is a work based upon one or more preexisting works, such as a translation, musical arrangement, dramatization, fictionalization, motion picture version, sound recording, art reproduction, abridgment, condensation, or any other form in which a work may be recast, transformed, or adapted. A work consisting of editorial revisions, annotations, elaborations, or other modifications which, as a whole, represent an original work of authorship, is a “derivative work”.
+
 
 ## Copyrights Options
 Any document may fall in one of the below categories
-*Public domain. (free!)
-*“All Rights Reserved”. ©  
-*GNU Free Documentation License [FDL](http://www.gnu.org/copyleft/fdl.html), where all derivatives in from an FDL work must remain free.
-*Creative Commons Licenses.
+ - Public domain. (free!)
+ - “All Rights Reserved”. ©  
+ - GNU Free Documentation License [FDL](http://www.gnu.org/copyleft/fdl.html), where all derivatives in from an FDL work must remain free.
+ - Creative Commons Licenses.
 {:.note}
 A similar licenses to Creative commons are also exists to Databases [(Open Database License)](opendatacommons.org/licenses/odbl/) 
+
+##Rights under Creative Common (CC) Licenses
+- All Rights Reserved.
+    No distribution, copy, use, tweak, reuse, mix or build upon unless getting permission (license) from the copyrights holder.
+- Creative Common Zero CC0.
+  No Rights Reserved.
+- Creative Common Attribution.
+  lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit the creator
+
+- Creative Common Attribution-NoDerivs. 
+allows for redistribution, commercial and non-commercial, as long as it is passed along unchanged and in whole, with credit to creator.
+
+##Rights under Creative Common (CC) Licenses. *Cont'd*
+- Creative Common Attribution-NonCommercial-ShareAlike.
+lets others remix, tweak, and build upon your work non-commercially, as long as they credit you and license their new creations under the identical terms
+- Creative Common Attribution-ShareAlike.
+ remix, tweak, and build upon the work even for commercial purposes, as long as the user credit creator and license their new creations under the identical terms.(copyleft)
+- Creative Common Attribution-NonCommercial.
+ This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms.
+- Creative Common Attribution-NonCommercial-NoDerivs.
+ This license is the most restrictive, only allowing others to download the work and share it with others as long as they credit you, but they can’t change them in any way or use them commercially.
+- 
+
+
+
+
+
+
+
 
 
 
