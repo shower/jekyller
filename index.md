@@ -128,7 +128,7 @@ Wikimedia Commons, SoundCloud..
 {:.note} 
 Need more readings..
 
-## Copyrights Framework Analysis [Duke Uni. MOOC/Copyrights. 2014]
+## Copyrights Framework Analysis 
 There are five questions for copyright analysis which are:
 
 1. Is the work protected by copyright?
@@ -136,6 +136,8 @@ There are five questions for copyright analysis which are:
 3. Is there a license that covers my use?
 4. Is my use covered by fair use?
 5. Do I need permission from the copyright owner for my use?
+
+source [Duke Uni. MOOC Copyrights for educators and Librarians 2014] {:.note}
 
 ## Fair Use [Duke Uni. MOOC/Copyrights. 2014]
 There are Four factors:
