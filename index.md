@@ -67,13 +67,11 @@ The license means **permission(s)** granted by *“licensor”* (creator/holder 
 
 ## Copyrights Options
 Any document may fall in one of the below categories:
-
 - Public domain. (free!)
 - “All Rights Reserved”. ©  
 - GNU Free Documentation License [FDL](http://www.gnu.org/copyleft/fdl.html), where all derivatives in from an FDL work must remain free.
 - Creative Commons Licenses.
-{:.note}
-A similar licenses to Creative commons to Databases on [(Open Database License)](opendatacommons.org/licenses/odbl/) 
+{:.note} A similar licenses to Creative commons to Databases on [(Open Database License)](opendatacommons.org/licenses/odbl/) 
 
 ##Rights under Creative Common (CC) Licenses
 1. *All Rights Reserved*.
