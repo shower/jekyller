@@ -130,6 +130,7 @@ Need more readings..
 
 ## Copyrights Framework Analysis [Duke Uni. MOOC/Copyrights. 2014]
 There are five questions for copyright analysis which are:
+
 1. Is the work protected by copyright?
 2. Is there a specific exception in copyright law that covers my use?
 3. Is there a license that covers my use?
@@ -138,6 +139,7 @@ There are five questions for copyright analysis which are:
 
 ## Fair Use [Duke Uni. MOOC/Copyrights. 2014]
 There are Four factors:
+
 1. The purpose and character of the use, including whether such use is of a commercial nature or is for nonprofit educational purposes;
 2. The nature of the copyrighted work; 
 3. The amount and substantiality of the portion used in relation to the copyrighted work as a whole; and
@@ -145,6 +147,7 @@ There are Four factors:
 
 ## The Basics of Getting Permission
 There are five steps procedure:
+
 1. Determine if permission is needed.
 2. Identify the owner.
 3. Identify the rights needed.
@@ -154,12 +157,14 @@ There are five steps procedure:
 
 ## The librarian way of maintaining permissions
 For clearance they use a sheet with following headings 
+
 | Course         | Material            | Holder      | Date       | Req. Response     | Fee | FollowUp  | Notes |
 +----------------|---------------------|-------------|------------|---------------------|------------------------+
 |* Duke Uni MOOC *| Copyrights for Edu | Some author | 05-09-2014 |agreed to 2 chapters | 10$ |         |ch 1&2 |
 
 ## License Mismatch Problems
 In order to understand possible conflicts we need to answer the following questions:
+
 1- What is the license that needed for the output of the work.
 2- What components are included in the work.
 3- Are there people involved in creating part of the work? What licenses they give?
@@ -169,6 +174,7 @@ In order to understand possible conflicts we need to answer the following questi
 The creative common licenses that encourage the free culture are
         CC Zero, CC BY, CC BY-SA
 They Share this concept: 
+
 If they are used for an output work all the partial work, images, videos ..etc in it require a similar license or greater than it in term of rights
 
 ## A Possible conflict
