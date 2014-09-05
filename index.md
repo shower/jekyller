@@ -139,13 +139,13 @@ There are five questions for copyright analysis which are:
 
 source [Duke Uni. MOOC Copyrights for educators and Librarians 2014] {:.note}
 
-## Fair Use [Duke Uni. MOOC/Copyrights. 2014]
-There are Four factors:
+## Fair Use Four factors
 
 1. The purpose and character of the use, including whether such use is of a commercial nature or is for nonprofit educational purposes;
 2. The nature of the copyrighted work; 
 3. The amount and substantiality of the portion used in relation to the copyrighted work as a whole; and
 4. The effect of the use upon the potential market for or value of the copyrighted work.
+Source [Duke Uni. MOOC/Copyrights. 2014]
 
 ## The Basics of Getting Permission
 There are five steps procedure:
@@ -155,14 +155,14 @@ There are five steps procedure:
 3. Identify the rights needed.
 4. Contact the owner and negotiate whether payment is required.
 5. Get your permission agreement in writing.
-- See [more at:](http://fairuse.stanford.edu/overview/introduction/getting-permission/)
+- See [more at:](http://fairuse.stanford.edu/overview/introduction/getting-permission/)http://fairuse.stanford.edu/overview/introduction/getting-permission/
 
 ## The librarian way of maintaining permissions
 For clearance they use a sheet with following headings 
 
-| Course         | Material            | Holder      | Date       | Req. Response     | Fee | FollowUp  | Notes |
-+----------------|---------------------|-------------|------------|---------------------|------------------------+
-|* Duke Uni MOOC *| Copyrights for Edu | Some author | 05-09-2014 |agreed to 2 chapters | 10$ |         |ch 1&2 |
+| Course         | Material            | Holder      | Date       | Req. Response     | Fee   | Pd |FollowUp  | Notes |
++----------------|---------------------|-------------|------------|---------------------|-----|-------------------+
+|* Duke Uni MOOC *| Copyrights for Edu | Some author | 05-09-2014 |agreed to 2 chapters | 10$ | n/a|          |ch 1&2 |
 
 ## License Mismatch Problems
 In order to understand possible conflicts we need to answer the following questions:
