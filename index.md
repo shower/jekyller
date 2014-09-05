@@ -67,6 +67,7 @@ The license means **permission(s)** granted by *“licensor”* (creator/holder 
 
 ## Copyrights Options
 Any document may fall in one of the below categories:
+
 - Public domain. (free!)
 - “All Rights Reserved”. ©  
 - GNU Free Documentation License [FDL](http://www.gnu.org/copyleft/fdl.html), where all derivatives in from an FDL work must remain free.
