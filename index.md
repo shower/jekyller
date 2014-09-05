@@ -77,27 +77,27 @@ Any document may fall in one of the below categories:
 A similar licenses to Creative commons to Databases on [(Open Database License)](opendatacommons.org/licenses/odbl/) 
 
 ##Rights under Creative Common (CC) Licenses
-1. *All Rights Reserved*.
+1- *All Rights Reserved*.
   No distribution, copy, use, tweak, reuse, mix or build upon unless getting permission (license) from the copyrights holder.
-2. *Creative Common Zero CC0*.
+2- *Creative Common Zero CC0*.
   No Rights Reserved.
 
 ##Rights under Creative Common (CC) Licenses. *Cont'd*
-3. *Creative Common Attribution*.
+3- *Creative Common Attribution*.
   lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit the creator
-4. *Creative Common Attribution-NoDerivs*. 
+4- *Creative Common Attribution-NoDerivs*. 
 allows for redistribution, commercial and non-commercial, as long as it is passed along unchanged and in whole, with credit to creator.
 
 ##Rights under Creative Common (CC) Licenses. *Cont'd*
-5. *Creative Common Attribution-NonCommercial-ShareAlike*.
+5- *Creative Common Attribution-NonCommercial-ShareAlike*.
 lets others remix, tweak, and build upon your work non-commercially, as long as they credit you and license their new creations under the identical terms
-6. *Creative Common Attribution-ShareAlike*.
+6- *Creative Common Attribution-ShareAlike*.
  remix, tweak, and build upon the work even for commercial purposes, as long as the user credit creator and license their new creations under the identical terms.(copyleft)
 
 ##Rights under Creative Common (CC) Licenses. *Cont'd*
-7. *Creative Common Attribution-NonCommercial*.
+7- *Creative Common Attribution-NonCommercial*.
  This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms.
-8. *Creative Common Attribution-NonCommercial-NoDerivs*.
+8- *Creative Common Attribution-NonCommercial-NoDerivs*.
  This license is the most restrictive, only allowing others to download the work and share it with others as long as they credit you, but they can’t change them in any way or use them commercially.
 
 ## Tools to choose a license
