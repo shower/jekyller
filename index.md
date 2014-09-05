@@ -167,10 +167,11 @@ For clearance they use a sheet with following headings
 ## License Mismatch Problems
 In order to understand possible conflicts we need to answer the following questions:
 
-What is the license that needed for the output of the work.
-What components are included in the work.
-Are there people involved in creating part of the work? What licenses they give?
-Are there components which may have no information about it’s copyrights/licenses ?
+- What is the license that needed for the output of the work.
+- What components are included in the work.
+- Are there people involved in creating part of the work? What licenses they give?
+- Are there components which may have no information about it’s copyrights/licenses ?
+
 
 ## Compatibility Issues
 The creative common licenses that encourage the free culture are
