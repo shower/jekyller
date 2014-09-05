@@ -72,9 +72,8 @@ Any document may fall in one of the below categories:
 - “All Rights Reserved”. ©  
 - GNU Free Documentation License [FDL](http://www.gnu.org/copyleft/fdl.html), where all derivatives in from an FDL work must remain free.
 - Creative Commons Licenses.
-
 {:.note}
-A similar licenses to Creative commons are also exists to Databases [(Open Database License)](opendatacommons.org/licenses/odbl/) 
+A similar licenses to Creative commons to Databases on [(Open Database License)](opendatacommons.org/licenses/odbl/) 
 
 ##Rights under Creative Common (CC) Licenses
 1. *All Rights Reserved*.
