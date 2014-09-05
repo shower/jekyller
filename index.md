@@ -70,7 +70,7 @@ Any document may fall in one of the below categories:
 
 - Public domain. (free!)
 - “All Rights Reserved”. ©  
-- GNU Free Documentation License [FDL](http://www.gnu.org/copyleft/fdl.html), where all derivatives in from an FDL work must remain free.
+- GNU Free Documentation License [FDL](http://www.gnu.org/copyleft/fdl.html).
 - Creative Commons Licenses.
 
 A similar licenses to Creative commons to Databases on [(Open Database License)](opendatacommons.org/licenses/odbl/) 
