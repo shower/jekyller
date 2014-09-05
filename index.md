@@ -131,9 +131,13 @@ Need more readings..
 ## Copyrights Framework Analysis [Duke Uni. MOOC/Copyrights. 2014]
 There are five questions for copyright analysis which are:
 1. Is the work protected by copyright?
+
 2. Is there a specific exception in copyright law that covers my use?
+
 3. Is there a license that covers my use?
+
 4. Is my use covered by fair use?
+
 5. Do I need permission from the copyright owner for my use?
 
 ## Fair Use [Duke Uni. MOOC/Copyrights. 2014]
