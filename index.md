@@ -145,7 +145,7 @@ There are five steps procedure:
 5. Get your permission agreement in writing.
 - See [more at:](http://fairuse.stanford.edu/overview/introduction/getting-permission/)
 
-# The librarian way of maintaining permissions
+## The librarian way of maintaining permissions
 For clearance they use a sheet with following headings 
 | Course         | Material            | Holder      | Date       | Req. Response     | Fee | FollowUp  | Notes |
 +----------------|---------------------|-------------|------------|---------------------|------------------------+
