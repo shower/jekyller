@@ -152,77 +152,23 @@ For clearance they use a sheet with following headings
 |* Duke Uni MOOC *| Copyrights for Educators Book  | Some author | 05-09-2014 |agreed to 2 chapters | 10$ |         |ch 1&2 |
 
 ## License Mismatch Problems
+In order to understand possible conflicts we need to answer the following questions:
+1- What is the license that needed for the output of the work.
+2- What components are included in the work.
+3- Are there people involved in creating part of the work? What licenses they give?
+4- Are there components which may have no information about it’s copyrights/licenses ?
 
+## Compatibility Issues
+The creative common licenses that encourage the free culture are
+        CC Zero, CC BY, CC BY-SA
+They Share this concept: 
+If they are used for an output work all the partial work, images, videos ..etc in it require a similar license or greater than it in term of rights
 
+## A Possible conflict
+Slides with “All Rights Reserved ” at front page then in the content such as an image or code its licensed under one of the creative common license CC BY-NC-SA: CC Attribution-Non-Commercial-ShareAlike 
+First conflict with the first Slide copyright since this kind of licenses means share alike the part you used so it remain in the same license attributes.
+“All Rights reserved” is typically equal to the copyright act law which is preserving all rights to the author.
+The (CC BY-NC-SA) license condition is that the whole collective work need to be licensed in non-commercial and share alike license. 
 
-
-
-
-
-
-
-
-
-
-## Plain Text on Your Slides
-
-Lorem ipsum dolor sit amet, consectetur [adipisicing](#all-kind-of-lists) elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, *quis nostrud* exercitation ullamco laboris **nisi ut aliquip** ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in `<culpa>` qui officia deserunt mollit anim id est laborum.
-
-## All Kind of Lists
-
-1. Simple lists are marked with bullets
-2. Ordered lists begin with a number
-3. You can even nest lists one inside another
-    - Or mix their types
-    - But do not go too far
-    - Otherwise audience will be bored
-4. Look, seven rows exactly!
-
-## Serious Citations
-
-<figure markdown="1">
-
-> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
-
-<figcaption>Marcus Tullius Cicero</figcaption>
-</figure>
-
-## Code Samples
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <mark><head></mark> <mark class="comment"><!--Comment--></mark>
-        <title>Shower</title>
-        <meta charset="<mark class="important">UTF-8</mark>">
-        <link rel="stylesheet" href="screen.css">
-    <mark></head></mark>
-
-## Even Tables
-
-|  Locavore      | Umami       | Helvetica | Vegan     |
-+----------------|-------------|-----------|-----------+
-|* Fingerstache *| Kale        | Chips     | Keytar    |
-|* Sriracha     *| Gluten-free | Ennui     | Keffiyeh  |
-|* Thundercats  *| Jean        | Shorts    | Biodiesel |
-|* Terry        *| Richardson  | Swag      | Blog      |
-
-It’s good to have information organized.
-
-## Pictures
-{:.cover #Picture}
-
-![](pictures/picture.jpg)
-<!-- photo by John Carey, fiftyfootshadows.net -->
-
-## **You can even shout this way**
-
-## Inner Navigation
-
-1. Lets you reveal list items one by one
-2. …To keep some key points
-3. …In secret from audience
-4. …But it will work only once
-5. …Nobody wants to see the same joke twice
-
-## ![](http://shwr.me/pictures/logo.svg) [See more on GitHub](https://github.com/shower/shower/)
+## ![](http://shwr.me/pictures/logo.svg) [Thanks](https://github.com/shower/shower/)
 {:.shout #SeeMore}
