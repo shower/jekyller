@@ -1,6 +1,6 @@
 ---
 
-layout: bright
+layout: default
 
 style: |
 
@@ -147,9 +147,9 @@ There are five steps procedure:
 
 # The librarian way of maintaining permissions
 For clearance they use a sheet with following headings 
-| Course         | Material                        | Holder      | Date       | Req. Response     | Fee | FollowUp  | Notes |
-+----------------|---------------------------------|-------------|------------|---------------------|------------------------+
-|* Duke Uni MOOC *| Copyrights for Educators Book  | Some author | 05-09-2014 |agreed to 2 chapters | 10$ |         |ch 1&2 |
+| Course         | Material            | Holder      | Date       | Req. Response     | Fee | FollowUp  | Notes |
++----------------|---------------------|-------------|------------|---------------------|------------------------+
+|* Duke Uni MOOC *| Copyrights for Edu | Some author | 05-09-2014 |agreed to 2 chapters | 10$ |         |ch 1&2 |
 
 ## License Mismatch Problems
 In order to understand possible conflicts we need to answer the following questions:
