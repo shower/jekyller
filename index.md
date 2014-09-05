@@ -1,6 +1,6 @@
 ---
 
-layout: bright
+layout: ribbon
 
 style: |
 
@@ -111,8 +111,47 @@ Wikimedia Commons, SoundCloud..
 
 ## Settings of CC
 {:.cover #Picture}
-
 ![](pictures/content.jpg)
+<!-- photo by George Ajam -->
+
+## Linking & Framing and Streaming Issues.
+- Inline linking to materlias is not an infirngment of the copyrights but for images there are issues.
+- Streaming a broadcaste or a video in a frame within a webpage without license includes liabilities.
+- P2P concept of linking considered as a copyright infringment.
+{:.note} 
+Need more readings..
+
+## Copyrights Framework Analysis [Duke Uni. MOOC/Copyrights. 2014]
+There are five questions for copyright analysis which are:
+1. Is the work protected by copyright?
+2. Is there a specific exception in copyright law that covers my use?
+3. Is there a license that covers my use?
+4. Is my use covered by fair use?
+5. Do I need permission from the copyright owner for my use?
+
+## Fair Use [Duke Uni. MOOC/Copyrights. 2014]
+There are Four factors:
+1. The purpose and character of the use, including whether such use is of a commercial nature or is for nonprofit educational purposes;
+2. The nature of the copyrighted work; 
+3. The amount and substantiality of the portion used in relation to the copyrighted work as a whole; and
+4. The effect of the use upon the potential market for or value of the copyrighted work.
+
+## The Basics of Getting Permission
+There are five steps procedure:
+1. Determine if permission is needed.
+2. Identify the owner.
+3. Identify the rights needed.
+4. Contact the owner and negotiate whether payment is required.
+5. Get your permission agreement in writing.
+- See [more at:](http://fairuse.stanford.edu/overview/introduction/getting-permission/)
+
+# The librarian way of maintaining permissions
+For clearance they use a sheet with following headings 
+| Course         | Material                        | Holder      | Date       | Req. Response     | Fee | FollowUp  | Notes |
++----------------|---------------------------------|-------------|------------|---------------------|------------------------+
+|* Duke Uni MOOC *| Copyrights for Educators Book  | Some author | 05-09-2014 |agreed to 2 chapters | 10$ |         |ch 1&2 |
+
+## License Mismatch Problems
 
 
 
@@ -123,17 +162,6 @@ Wikimedia Commons, SoundCloud..
 
 
 
-
-
-
-1. Built on HTML, CSS and vanilla JavaScript
-2. All modern browsers are supported
-3. Slide themes are separated from engine
-4. Fully keyboard accessible
-5. Printable to PDF
-
-{:.note}
-Shower ['ʃəuə] noun. A person or thing that shows.
 
 
 ## Plain Text on Your Slides
