@@ -81,12 +81,14 @@ A similar licenses to Creative commons to Databases on [(Open Database License)]
   No distribution, copy, use, tweak, reuse, mix or build upon unless getting permission (license) from the copyrights holder.
 2. *Creative Common Zero CC0*.
   No Rights Reserved.
-3. *Creative Common Attribution*.
-  lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit the creator
 
 ##Rights under Creative Common (CC) Licenses. *Cont'd*
+3. *Creative Common Attribution*.
+  lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit the creator
 4. *Creative Common Attribution-NoDerivs*. 
 allows for redistribution, commercial and non-commercial, as long as it is passed along unchanged and in whole, with credit to creator.
+
+##Rights under Creative Common (CC) Licenses. *Cont'd*
 5. *Creative Common Attribution-NonCommercial-ShareAlike*.
 lets others remix, tweak, and build upon your work non-commercially, as long as they credit you and license their new creations under the identical terms
 6. *Creative Common Attribution-ShareAlike*.
