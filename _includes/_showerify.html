@@ -1,5 +1,8 @@
-{% capture strip_whitespace %}
-{% include setup.md %}
+{% capture _strip_whitespace %}
+
+<!-- Get things setup -->
+{% include _setup.html %}
+
 {% assign items = showerify_input | split:'<h1' %}
 {% for item in items %}
     {% assign subitems = item | split:'</h1>' %}

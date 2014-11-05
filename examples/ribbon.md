@@ -1,7 +1,6 @@
 ---
 
 layout: ribbon
-
 permalink: ribbon.html
 
 ---

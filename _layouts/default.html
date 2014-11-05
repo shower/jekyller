@@ -1,12 +1,11 @@
-<!DOCTYPE HTML>{% capture showerify_input %}{{ content }}{% endcapture %}{% include showerify.html %}{% include setup.md %}
+<!DOCTYPE HTML>{% capture showerify_input %}{{ content }}{% endcapture %}{% include _showerify.html %}{% capture title %}{% if page.title %}{{ page.title }}{% else %}{{ supertitle }}{% endif %}{% endcapture %}
 <html lang="{{ lang }}">
 <head>
-    <title>{{ title | strip_html }}</title>
+    <title>{{ title }}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width={% if width %}{{ width }}{% else %}792{% endif %}, user-scalable=no">
-    <link rel="stylesheet" href="themes/{{ theme }}/styles/screen.css">
-    {% if page.style %}<style>
-{{ page.style }}</style>{%endif%}
+    <link rel="stylesheet" href="{{ url }}/themes/{{ theme }}/styles/screen.css">
+    {% if page.style %}<style>{{ page.style }}</style>{%endif%}
 </head>
 <body class="{{ body_class }}">
     <header class="caption">
