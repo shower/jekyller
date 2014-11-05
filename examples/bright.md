@@ -1,7 +1,6 @@
 ---
 
 layout: bright
-
 permalink: bright.html
 
 ---

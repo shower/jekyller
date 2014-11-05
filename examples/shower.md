@@ -1,7 +1,7 @@
 ---
 
 layout: bright
-
+permalink: shower.html
 style: |
 
     #Cover h2 {
