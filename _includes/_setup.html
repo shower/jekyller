@@ -1,6 +1,6 @@
-{% capture strip_whitespace %}
+{% capture _strip_whitespace %}
 
-# Set all the things
+<!-- Set all the things -->
 
     {% capture theme %}{% if page.theme and page.theme != 'default' %}{{ page.theme }}{% else %}{{ site.default_theme }}{% endif %}{% endcapture %}
     {% capture width %}{% if page.width %}{{ page.width }}{% else %}{{ site.default_width }}{% endif %}{% endcapture %}
@@ -19,7 +19,7 @@
 
     {% capture fork_url %}{% if page.fork_url %}{{ page.fork_url }}{% else %}{{ site.fork_url }}{% endif %}{% endcapture %}
 
-## Set the progress var
+<!-- Set the progress var -->
 
     {% assign progress = page.progress | append:'' | size %}
     {% if progress == 0 %}
@@ -28,7 +28,7 @@
         {% assign progress = page.progress %}
     {% endif %}
 
-## Set the line numbers var
+<!-- Set the line numbers var -->
 
     {% assign line_numbers = page.line_numbers | append:'' | size %}
     {% if line_numbers == 0 %}
