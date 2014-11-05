@@ -3,6 +3,7 @@ safe: true
 markdown:    kramdown
 highlighter: pygments
 permalink:   /:title.html
+url:         
 
 # Shower
 default_theme: ribbon

@@ -4,7 +4,7 @@
     <title>{{ title | strip_html }}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width={% if width %}{{ width }}{% else %}792{% endif %}, user-scalable=no">
-    <link rel="stylesheet" href="themes/{{ theme }}/styles/screen.css">
+    <link rel="stylesheet" href="{{ url }}/themes/{{ theme }}/styles/screen.css">
     {% if page.style %}<style>
 {{ page.style }}</style>{%endif%}
 </head>
