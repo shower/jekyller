@@ -1,9 +1,6 @@
 ---
-
-layout: bright
-
-permalink: bright.html
-
+layout: slide
+theme: bright
 ---
 
 # Presentation Title

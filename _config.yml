@@ -1,9 +1,18 @@
-safe: true
-markdown: kramdown
-pygments: true
-permalink: /:title.html
-relative_permalinks: false
+# Jekyll
+safe:        true
+markdown:    kramdown
+highlighter: pygments
+permalink:   /:title.html
+url:         
 
+# Shower
+default:
+  lang:  en
+  mode:  list
+  theme: ribbon
+  width: 792
+
+# Shower
 default_theme: ribbon
 default_width: 792
 default_lang: en

@@ -1,7 +1,6 @@
 ---
-
-layout: bright
-
+layout: slide
+theme: bright
 style: |
 
     #Cover h2 {

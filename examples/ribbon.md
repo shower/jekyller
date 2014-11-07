@@ -1,9 +1,6 @@
 ---
-
-layout: ribbon
-
-permalink: ribbon.html
-
+layout: slide
+theme: ribbon
 ---
 
 # Presentation Title

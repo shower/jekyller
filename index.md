@@ -1,7 +1,6 @@
 ---
-
-layout: ribbon
-
+layout: slide
+theme: ribbon
 style: |
 
     #Cover h2 {
