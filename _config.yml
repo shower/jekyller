@@ -7,9 +7,8 @@ url:
 
 # Shower
 default:
-  lang:  en
-  width: 792
-  theme: ribbon
-  mode:  list
-  progress: true
-  line_numbers: true
+  lang:      en
+  width:     792
+  theme:     ribbon
+  mode:      list
+  progress:  true
