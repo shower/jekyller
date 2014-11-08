@@ -1,17 +1,7 @@
-{% capture strip_whitespace %}
 {% include _setup.html %}
-{% assign items = showerify_input | split:'<h1' %}
-{% for item in items %}
-    {% assign subitems = item | split:'</h1>' %}
-    {% assign subsubitems = subitems[0] %}
-
-    {% capture subsubitems2 %}{{ subsubitems }}{% endcapture %}
-    {% assign subsubitems2 = subsubitems2 | split: '>' %}
-    {% assign lol = subsubitems2[0] | append:">" %}
-    {% capture supertitle %}{{ subsubitems | remove_first:lol }}{% endcapture %}
-{% endfor %}
 
 {% assign flag = false %}
+{% assign items = content | split:'<h1' %}
 {% for item in items %}
     {% capture h1_attrs %}{{ item | split:'>' | first }}{% endcapture %}
     {% if flag != false %}
@@ -48,6 +38,7 @@
         {% assign flag = true %}
     {% endif %}
 {% endfor %}
+
 <!-- There is a difference between Liquid 1.4.1 and 1.5.0 in replace syntax, and in 1.4.1 you can't chain the one that is only there in 1.5.0, so multiple assigns there -->
 {% assign showerify_middle = showerify_middle | replace:'class="slide" class="','class="slide ' %}
 {% assign showerify_middle = showerify_middle | replace:'&lt;/mark&gt;','</mark>' %}
@@ -122,4 +113,6 @@
 {% assign showerify_middle = showerify_middle | replace:'<hr />','</div></section><section class="slide"><div>' %}
 
 {% capture showerify_output %}{{ showerify_middle }}{% endcapture %}
+
+{% capture _strip_whitespace %}
 {% endcapture %}

@@ -1,6 +1,10 @@
 ---
 layout: slide
-theme: ribbon
+title: Shower Presentation Engine
+subtitle: Yours Truly, Famous Inc.
+badge:
+  text: Fork me on Github
+  url: https://github.com/shower/shower
 style: |
 
     #Cover h2 {
