@@ -5,6 +5,12 @@ highlighter: pygments
 permalink:   /:title.html
 url:         
 
+collections:
+  examples:
+    output: true
+  slides:
+    output: true
+
 # Shower
 default:
   lang:      en
