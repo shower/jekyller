@@ -18,3 +18,4 @@ default:
   theme:     ribbon
   mode:      list
   progress:  true
+  mathjax:   false

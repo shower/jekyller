@@ -7,6 +7,10 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="{% if site.url %}{{ site.url }}{% endif %}/themes/{{ theme }}/styles/screen.css">
   <link rel="stylesheet" href="{% if site.url %}{{ site.url }}{% endif %}/themes/syntax.css">
+  {% if mathjax %}<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({ "HTML-CSS": { scale: 85 } });
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>{% endif %}
 </head>
 <body class="{{ mode }}">
   <header class="caption">

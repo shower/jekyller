@@ -16,6 +16,8 @@
 {% capture mode %}{% if page.mode %}{{ page.mode }}{% else %}{{ site.default.mode }}{% endif %}{% endcapture %}
 <!-- progress -->
 {% capture progress %}{% if page.progress %}{{ page.progress }}{% else %}{{ site.default.progress }}{% endif %}{% endcapture %}
+<!-- mathjax -->
+{% capture mathjax %}{% if page.mathjax %}{{ page.mathjax }}{% else %}{{ site.default.mathjax }}{% endif %}{% endcapture %}
 
 <!--
   Insert sections

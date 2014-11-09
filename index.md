@@ -6,6 +6,7 @@ subtitle: A shower slide generator
 badge:
   text: Fork me on Github
   url: https://github.com/shower/jekyller
+mathjax: true
 ---
 
 ## Shower Jekyller
@@ -50,14 +51,14 @@ It's simple to make Shower slides using Markdown.
 
 ## You can get more
 
-- Highlight your codes like this
-{% highlight css %}
+- Name your slides automatically, e.g. `#you-can-get-more`
+- Use \\(\LaTeX\\) freely
+- Highlight your code
+{% highlight css linenos %}
 #Cover p a {
   color:#FFF;
 }
 {% endhighlight %}
-
-- Name your slide automatically, e.g. `#you-can-get-more`
 
 
 ## How to get started?
