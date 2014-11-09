@@ -72,15 +72,15 @@ It's simple to make Shower slides using Markdown.
 ## Examples in `/_examples`
 
 <ul>
-  <li><a href="/examples/shower.html">Offical Shower demo</a></li>
+  <li><a href="{{ site.url }}/examples/shower.html">Offical Shower demo</a></li>
   <li>Theme demos<ul>
-    {% for example in site.examples %}{% if example.theme %}<li><a href="{{ example.url }}">{{ example.theme | capitalize }}</a></li>{% endif %}{% endfor %}
+    {% for example in site.examples %}{% if example.theme %}<li><a href="{{ site.url }}{{ example.url }}">{{ example.theme | capitalize }}</a></li>{% endif %}{% endfor %}
   </ul></li>
 </ul>
 
 
 ## Slides in `/_slides`
 <ul>
-  {% for slide in site.slides %}{% if slide.title %}<li><a href="{{ slide.url }}">{{ slide.title }}</a></li>{% endif %}{% endfor %}
+  {% for slide in site.slides %}{% if slide.title %}<li><a href="{{ site.url }}{{ slide.url }}">{{ slide.title }}</a></li>{% endif %}{% endfor %}
 </ul>
 
