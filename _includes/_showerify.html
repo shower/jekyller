@@ -1,0 +1,40 @@
+{% capture _strip_whitespace %}
+
+<!--
+  Setup slide variables
+-->
+
+<!-- lang -->
+{% capture lang %}{% if page.lang %}{{ page.lang }}{% else %}{{ site.default.lang }}{% endif %}{% endcapture %}
+<!-- width -->
+{% capture width %}{% if page.width %}{{ page.width }}{% else %}{{ site.default.width }}{% endif %}{% endcapture %}
+<!-- theme -->
+{% capture theme %}{% if page.theme %}{{ page.theme }}{% else %}{{ site.default.theme }}{% endif %}{% endcapture %}
+<!-- mode -->
+{% capture mode %}{% if page.mode %}{{ page.mode }}{% else %}{{ site.default.mode }}{% endif %}{% endcapture %}
+<!-- progress -->
+{% capture progress %}{% if page.progress %}{{ page.progress }}{% else %}{{ site.default.progress }}{% endif %}{% endcapture %}
+<!-- mathjax -->
+{% capture mathjax %}{% if page.mathjax %}{{ page.mathjax }}{% else %}{{ site.default.mathjax }}{% endif %}{% endcapture %}
+
+<!--
+  Insert sections
+-->
+
+{% assign slides = content | split:'<h2' %}
+{% assign showerified_content = slides[0] %}
+{% for slide in slides offset:1 %}
+  {% assign slide_attrs = slide | split:'>' | first %}
+  {% capture slide_content %}<h2{{ slide | remove_first: slide_attrs }}{% endcapture %}
+  <!-- Translate 'next's -->
+  {% assign slide_content = slide_content | replace:'<li>…', '<li class="next">' %}
+  {% assign slide_content = slide_content | replace:'<p>…', '<p class="next">' %}
+  <!-- Translate  'figcaption's -->
+  {% if slide_content contains '<p>–' %}
+    {% assign slices = slide_content | split: '<p>–' %}
+    {% capture slide_content %}{{ slices[0] }}{% for slice in slices offset:1 %}<figcaption>{{ slice | replace_first: '</p>', '</figcaption>' }}{% endfor %}{% endcapture %}
+  {% endif %}
+  <!-- Wrap this slide and output to showerified_content -->
+  {% capture showerified_content %}{{ showerified_content }}<section{{ slide_attrs | replace_first:'class="','class="slide ' }}{% unless slide_attrs contains 'class' %} class="slide"{% endunless %}><div>{{ slide_content }}</div></section>{% endcapture %}
+{% endfor %}
+{% endcapture %}

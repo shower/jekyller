@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>{% include _showerify.html %}
+<html lang="{{ lang }}">
+<head>
+  <title>{{ page.title }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width={{ width }}, user-scalable=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="{{ site.url }}/themes/{{ theme }}/styles/screen.css">
+  <link rel="stylesheet" href="{{ site.url }}/themes/syntax.css">
+  {% if mathjax %}<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({ "HTML-CSS": { scale: 85 } });
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>{% endif %}
+</head>
+<body class="{{ mode }}">
+  <header class="caption">
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
+  </header>
+  {{ showerified_content }}
+  {% if page.badge.text %}<p class="badge"><a href="{{ page.badge.url }}">{{ page.badge.text}}</a></p>{% endif %}
+  {% if progress == 'true' %}<div class="progress"><div></div></div>{% endif %}
+  <script src="{{ site.url }}/shower/shower.min.js"></script>
+</body>
+</html>

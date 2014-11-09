@@ -1,21 +1,22 @@
-safe: true
-markdown: kramdown
-pygments: true
-permalink: /:title.html
-relative_permalinks: false
+# Jekyll
+safe:        true
+markdown:    kramdown
+highlighter: pygments
+permalink:   /:title.html
+# Leave it blank, or use either relative path or absolute path
+url:         
 
-default_theme: ribbon
-default_width: 792
-default_lang: en
-default_body_class: list
+collections:
+  examples:
+    output: true
+  slides:
+    output: true
 
-author:
-    name: Yours Truly
-    # url:  http://example.com/
-    company:
-        name: Famous Inc.
-        # url:  http://example.com/
-
-fork_url: https://github.com/shower/shower
-progress: true
-line_numbers: true
+# Shower
+default:
+  lang:      en
+  width:     792
+  theme:     ribbon
+  mode:      list
+  progress:  true
+  mathjax:   false
