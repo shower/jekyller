@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width={{ width }}, user-scalable=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <link rel="stylesheet" href="themes/{{ theme }}/styles/screen.css">
-  <link rel="stylesheet" href="themes/syntax.css">
+  <link rel="stylesheet" href="{% if site.url %}{{ site.url }}{% endif %}/themes/{{ theme }}/styles/screen.css">
+  <link rel="stylesheet" href="{% if site.url %}{{ site.url }}{% endif %}/themes/syntax.css">
 </head>
 <body class="{{ mode }}">
   <header class="caption">
@@ -16,6 +16,6 @@
   {{ showerified_content }}
   {% if page.badge.text %}<p class="badge"><a href="{{ page.badge.url }}">{{ page.badge.text}}</a></p>{% endif %}
   {% if progress == 'true' %}<div class="progress"><div></div></div>{% endif %}
-  <script src="shower/shower.min.js"></script>
+  <script src="{% if site.url %}{{ site.url }}{% endif %}/shower/shower.min.js"></script>
 </body>
 </html>
