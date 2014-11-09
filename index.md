@@ -69,7 +69,22 @@ Lorem ipsum dolor sit amet, consectetur [adipisicing](#all-kind-of-lists) elit, 
 <figcaption>Marcus Tullius Cicero</figcaption>
 
 
-## Code Samples
+## Code Samples - HTML
+
+{% raw %}
+<pre>
+  <code>&lt;!DOCTYPE html&gt;</code>
+  <code>&lt;html lang="en"&gt;</code>
+  <code><mark>&lt;head&gt;</mark> <mark class="comment">&lt;!--Comment--&gt;</mark></code>
+  <code>    &lt;title&gt;Shower&lt;/title&gt;</code>
+  <code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
+  <code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
+  <code><mark>&lt;/head&gt;</mark></code>
+</pre>
+{% endraw %}
+
+
+## Code Samples - Markdown
 
 {% highlight html linenos %}
 <!DOCTYPE html>
