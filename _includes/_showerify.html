@@ -21,15 +21,18 @@
   Insert sections
 -->
 
-{% assign slides = content | replace_first: '<h2', '' | split:'<h2' %}
-{% for slide in slides %}
-  {% capture slide_attrs %}{{ slide | split:'>' | first }}{% endcapture %}
-
-  {% capture showerified_content %}{{ showerified_content }}
-    <section{{ slide_attrs | replace_first:'class="','class="slide ' }}{% unless slide_attrs contains 'class' %} class="slide"{% endunless %}><div>
-      <h2{{ slide | remove_first:slide_attrs | replace:'<li>…', '<li class="next">' }}
-    </div></section>
-  {% endcapture %}
-
+{% assign slides = content | split:'<h2' %}
+{% for slide in slides offset:1 %}
+  {% assign slide_attrs = slide | split:'>' | first %}
+  {% capture slide_content %}<h2{{ slide | remove_first: slide_attrs }}{% endcapture %}
+  <!-- Translate '<li>...' to '<li class="next">' for list items -->
+  {% assign slide_content = slide_content | replace:'<li>…', '<li class="next">' %}
+  <!-- Translate '<p>--' to '<figcaption>' for citations -->
+  {% if slide_content contains '<p>–' %}
+    {% assign slices = slide_content | split: '<p>–' %}
+    {% capture slide_content %}{{ slices[0] }}{% for slice in slices offset:1 %}<figcaption>{{ slice | replace_first: '</p>', '</figcaption>' }}{% endfor %}{% endcapture %}
+  {% endif %}
+  <!-- Wrap this slide and output to showerified_content -->
+  {% capture showerified_content %}{{ showerified_content }}<section{{ slide_attrs | replace_first:'class="','class="slide ' }}{% unless slide_attrs contains 'class' %} class="slide"{% endunless %}><div>{{ slide_content }}</div></section>{% endcapture %}
 {% endfor %}
 {% endcapture %}
