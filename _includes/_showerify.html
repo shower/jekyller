@@ -1,7 +1,5 @@
 {% capture _strip_whitespace %}
 
-{% assign showerified_content = '' %}
-
 <!--
   Setup slide variables
 -->
@@ -24,6 +22,7 @@
 -->
 
 {% assign slides = content | split:'<h2' %}
+{% assign showerified_content = slides[0] %}
 {% for slide in slides offset:1 %}
   {% assign slide_attrs = slide | split:'>' | first %}
   {% capture slide_content %}<h2{{ slide | remove_first: slide_attrs }}{% endcapture %}
