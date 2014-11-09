@@ -14,7 +14,7 @@ mathjax: true
 
 *A [Jekyll](http://jekyllrb.com) Generator based on [Shower Presentation Engine](http://github.com/shower/shower)*
 
-![](/pictures/cover.jpg)
+![]({{ site.url }}/pictures/cover.jpg)
 <!-- photo by John Carey, fiftyfootshadows.net -->
 
 <style>

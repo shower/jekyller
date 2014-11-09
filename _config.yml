@@ -3,6 +3,7 @@ safe:        true
 markdown:    kramdown
 highlighter: pygments
 permalink:   /:title.html
+# Leave it blank, or use either relative path or absolute path
 url:         
 
 collections:

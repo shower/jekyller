@@ -143,33 +143,33 @@ Typewriter etsy messenger bag fingerstache.
 ## Sliding Up
 {: .shout .up }
 
-## ![](/themes/bright/pictures/exact.png)
+## ![]({{ site.url }}/themes/bright/pictures/exact.png)
 {: .cover }
 
-## ![](/themes/bright/pictures/wide.png)
+## ![]({{ site.url }}/themes/bright/pictures/wide.png)
 {: .cover .w }
 
-## ![](/themes/bright/pictures/tall.png)
+## ![]({{ site.url }}/themes/bright/pictures/tall.png)
 {: .cover .h }
 
-## ![](/themes/bright/pictures/wide.png)
+## ![]({{ site.url }}/themes/bright/pictures/wide.png)
 {: .cover .h }
 
-## ![](/themes/bright/pictures/tall.png)
+## ![]({{ site.url }}/themes/bright/pictures/tall.png)
 {: .cover .w }
 
 ##  
 {: .shout}
 
-![](/themes/bright/pictures/square.png){: .place .t .l }
-![](/themes/bright/pictures/square.png){: .place .t }
-![](/themes/bright/pictures/square.png){: .place .t .r }
-![](/themes/bright/pictures/square.png){: .place .l }
-![](/themes/bright/pictures/square.png){: .place }
-![](/themes/bright/pictures/square.png){: .place .r }
-![](/themes/bright/pictures/square.png){: .place .b .l }
-![](/themes/bright/pictures/square.png){: .place .b }
-![](/themes/bright/pictures/square.png){: .place .b .r }
+![]({{ site.url }}/themes/bright/pictures/square.png){: .place .t .l }
+![]({{ site.url }}/themes/bright/pictures/square.png){: .place .t }
+![]({{ site.url }}/themes/bright/pictures/square.png){: .place .t .r }
+![]({{ site.url }}/themes/bright/pictures/square.png){: .place .l }
+![]({{ site.url }}/themes/bright/pictures/square.png){: .place }
+![]({{ site.url }}/themes/bright/pictures/square.png){: .place .r }
+![]({{ site.url }}/themes/bright/pictures/square.png){: .place .b .l }
+![]({{ site.url }}/themes/bright/pictures/square.png){: .place .b }
+![]({{ site.url }}/themes/bright/pictures/square.png){: .place .b .r }
 
 
 ## Timer
