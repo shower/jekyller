@@ -4,17 +4,16 @@
   <title>{{ page.title }}</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width={{ width }}, user-scalable=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="themes/{{ theme }}/styles/screen.css">
   <link rel="stylesheet" href="themes/syntax.css">
 </head>
 <body class="{{ mode }}">
   <header class="caption">
     <h1>{{ page.title }}</h1>
-      {% if page.subtitle %}{{ page.subtitle }}{% endif %}
+    {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
   </header>
-
   {{ showerified_content }}
-
   {% if page.badge.text %}<p class="badge"><a href="{{ page.badge.url }}">{{ page.badge.text}}</a></p>{% endif %}
   {% if progress == 'true' %}<div class="progress"><div></div></div>{% endif %}
   <script src="shower/shower.min.js"></script>

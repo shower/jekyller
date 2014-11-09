@@ -121,7 +121,7 @@ It’s good to have information organized.
 }
 </style>
 
-## You can even shout this way
+## You can even<br />shout this way
 {:.shout}
 
 
