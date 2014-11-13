@@ -142,7 +142,7 @@ You don't need to recreate or think on Shower's HTML structure, you just delimit
 
 ##### id for the slide
 
-By default the slide would take an `id` from it's content, almost like in GitHub-flavored markdown. But if you want to override it, you could use the syntax [kramdown](http://kramdown.rubyforge.org) (which is used for Jekyller) provides, like this:
+By default the slide would take an `id` from it's content, almost like in GitHub-flavored markdown. But if you want to override it, you could use the syntax [kramdown](http://kramdown.gettalong.org) (which is used for Jekyller) provides, like this:
 
 ``` md
 ## I'm a slide! {#Foo}
@@ -201,7 +201,7 @@ Also, Shower engine allows you to say if the image should be fit to the width or
 
 #### Tables
 
-As Jekyller is using kramdown engine, you can use the [kramdown syntax for tables](http://kramdown.rubyforge.org/syntax.html#tables).
+As Jekyller is using kramdown engine, you can use the [kramdown syntax for tables](http://kramdown.gettalong.org/syntax.html#tables).
 
 Briefly, you can use them like that::
 
