@@ -16,9 +16,11 @@
 
     {{ showerify_output }}
 
-    {% if fork_url != '' %}<p class="badge"><a href="{{ fork_url }}">Fork me on Github</a></p>{% endif %}
+    {% if fork_url != '' %}<p class="badge"><a href="{{ fork_url }}">Visit my homepage</a></p>{% endif %}
     {% if progress %}<div class="progress"><div></div></div>{% endif %}
     <script src="shower/shower.min.js"></script>
     <!-- Copyright © {{ site.time | date: "%Y" }} {{ author_name }}{% if author_url != '' %} — {{ author_url }}{% endif %}{% if company_name != '' %}, {{ company_name }}{% if company_url != '' %} — {{ company_url }}{% endif %}{% endif %} -->
+    <!-- mathjax -->
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
