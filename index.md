@@ -112,5 +112,11 @@ It’s good to have information organized.
 4. …But it will work only once
 5. …Nobody wants to see the same joke twice
 
+## Latex
+
+1. Sample: \\(2^2\\)
+2. Sample: \\(\frac{1}{2}\\)
+3. Sample: \\(\sigma\\)
+
 ## ![](http://shwr.me/pictures/logo.svg) [See more on GitHub](https://github.com/shower/shower/)
 {:.shout #SeeMore}
